@@ -1,0 +1,569 @@
+{
+  "patient_id": "test",
+  "step_count": 16,
+  "fields": {
+    "patient_demographics": {
+      "label": "Patient Demographics",
+      "value": null,
+      "status": "missing",
+      "citations": [],
+      "notes": "Searched discharge, imaging, ER, labs, nursing, medication, admission, consultation, and other indexed pages (pages 1-71) — no demographic block (name/age/sex/IP no) was found in the source documents."
+    },
+    "admission_date": {
+      "label": "Admission Date",
+      "value": "06/02/26 | 26/10/2023",
+      "status": "conflict",
+      "citations": [
+        {
+          "doc": "",
+          "page": 17,
+          "quote": "* Date Of Admission 06/02/26"
+        },
+        {
+          "doc": "",
+          "page": 37,
+          "quote": "Admission Date: 26/10/2023"
+        }
+      ],
+      "notes": "Two different explicit 'Date of Admission' values appear in the record (06/02/26 on PAGE 17 and 26/10/2023 on PAGE 37); years differ and are contradictory, so status is conflict.  CANDIDATES: 06/02/26 | 26/10/2023"
+    },
+    "discharge_date": {
+      "label": "Discharge Date",
+      "value": "9/3/26: 4 pm patient got discharge.",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 22,
+          "quote": "Known Drug Allergies\n9/3/26 - not known -"
+        },
+        {
+          "doc": "",
+          "page": 23,
+          "quote": "4 pm             patient got discharge."
+        }
+      ],
+      "notes": "Date from nursing notes header (9/3/26) and discharge event time from subsequent entry."
+    },
+    "principal_diagnosis": {
+      "label": "Principal Diagnosis",
+      "value": "ACUTE GASTROENTERITIS WITH DEHYDRATION",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "DIAGNOSIS:\n1) ACUTE GASTROENTERITIS WITH DEHYDRATION\n2) URINARY TRACT INFECTION"
+        }
+      ],
+      "notes": "Principal diagnosis taken as the first listed diagnosis on the discharge page."
+    },
+    "secondary_diagnoses": {
+      "label": "Secondary Diagnoses",
+      "value": "Thyroid disorder on treatment; uncontrolled T2 DM; AKI; AFI; DKA; B/L pyelonephritis",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "PAST HISTORY: K/C/O Thyroid disorder on treatment."
+        },
+        {
+          "doc": "",
+          "page": 49,
+          "quote": "case of uncontrolled T2 DM. AKI uc: fair"
+        },
+        {
+          "doc": "",
+          "page": 54,
+          "quote": "Case of AFI, DKA"
+        },
+        {
+          "doc": "",
+          "page": 54,
+          "quote": "B/L pyelonephritis"
+        }
+      ],
+      "notes": "Each clause in the value is supported by at least one verbatim quote from the provided pages."
+    },
+    "hospital_course": {
+      "label": "Hospital Course",
+      "value": "HISTORY: C/O Multiple episodes of loose stools, 2-3 episodes of vomiting, fatigue since 3 days and fever since yesterday. Patient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited. She was treated with IV fluids, - pt is stable - episode of chills yesterday night - no fever spike seen - symptomatically better now",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "HISTORY: C/O Multiple episodes of loose stools, 2-3 episodes of vomiting, fatigue since 3 days and fever since yesterday."
+        },
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "COURSE IN THE HOSPITAL:\nPatient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited. She was treated with IV fluids,"
+        },
+        {
+          "doc": "",
+          "page": 55,
+          "quote": "- Case reviewed\n- pt is stable\n- episode of chills yesterday night\n- no fever spike seen\n- symptomatically better now"
+        }
+      ],
+      "notes": ""
+    },
+    "procedures": {
+      "label": "Procedures",
+      "value": "Initial investigations showed normal CBC.\nSerum creatinine (1.65mg/dl) done was elevated.\nSerum electrolytes done showed low serum sodium(128.00mmol/L).\nUrine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited.\n2D Echo\nSinus bradycardia @ HR - 149 bpm\nNormal LV systolic function\nNo moderate PRUMA\nLVEF - 60%\nAR - trivial, no AR\nMR - trivial\nTR - mild\nNo PAH (RVSP - 28 mmHg)\nIVC 12/6 mm normal collapsing\nNo clot/pericardial effusion\nCT-KUB (Films) noted.\nDischarge checklist entries indicating reports present: RADIOLOGY REPORTS-CT/X-RAY; USG REPORTS; ECG; ECHO.",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "Initial investigations showed normal CBC."
+        },
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "Serum creatinine (1.65mg/dl) done was elevated."
+        },
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "Serum electrolytes done showed low serum sodium(128.00mmol/L)."
+        },
+        {
+          "doc": "",
+          "page": 1,
+          "quote": "Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited."
+        },
+        {
+          "doc": "",
+          "page": 50,
+          "quote": "2D Echo\n\nSinus bradycardia @ HR - 149 bpm\nNormal LV systolic function\nNo moderate PRUMA\nLVEF - 60%\nAR - trivial, no AR\nMR - trivial\nTR - mild\nNo PAH (RVSP - 28 mmHg)\nIVC 12/6 mm normal collapsing\nNo clot/pericardial effusion"
+        },
+        {
+          "doc": "",
+          "page": 53,
+          "quote": "CT-KUB (Films) noted"
+        },
+        {
+          "doc": "",
+          "page": 24,
+          "quote": "RADIOLOGY REPORTS-CT/X-RAY | [handwritten text] ✓"
+        },
+        {
+          "doc": "",
+          "page": 24,
+          "quote": "USG REPORTS | [handwritten text] ✓"
+        },
+        {
+          "doc": "",
+          "page": 24,
+          "quote": "ECG | [handwritten text] ✓"
+        },
+        {
+          "doc": "",
+          "page": 24,
+          "quote": "ECHO | [handwritten text] ✓"
+        }
+      ],
+      "notes": ""
+    },
+    "discharge_medications": {
+      "label": "Discharge Medications",
+      "value": "Per DRUG CHART (inpatient; not a formal discharge prescription):\n- INJ MEROMAC 1 gm IV; Freq 1-1-1\n- INJ PAN 40 mg IV; Freq 1-0-0\n- INJ EMESET 4 mg IV; Freq 1-1-1\n- INJ Sumol — Dose 19 m; Route IV; Freq SOS\n- INJ HAPPY NERVE PLUS 1 amp IV\n- INJ H. ACTRAPID — Dose 5/5; Route S/C; Freq 1-1-1\n- INS LANTUS — Dose 10 U; Route SLC; Freq OD\n- TAB DOLO 650 mg; Route PLO; Freq 1-1-1",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 42,
+          "quote": "DRUG CHART (1)\nDRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR"
+        },
+        {
+          "doc": "",
+          "page": 42,
+          "quote": "Drug  INJ MEROMAC  28/2/26  1/3/26  2/3/26  9AM  6AM  6AM\nDose  1 gm\nRoute  IV\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 42,
+          "quote": "Drug  INJ PAN  28/2/26  1/3/26  2/3/26  9/3/26  6AM  6AM  6AM\nDose  40 mg\nRoute  IV\nFreq  1-0-0\nDate  28/2/26\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 42,
+          "quote": "Drug  INJ EMESET  28/2/26  1/3/26  2/3/26  9/3/26  2pm  6AM  6AM\nDose  4 mg\nRoute  IV\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 43,
+          "quote": "Drug\nINJ Sumol\n28/12/26  1/3/26  2/3/26\num  3*30 am  2 am\n\nDose\n19 m\n\nRoute\nIV\n\nFreq\nSOS\n\nDate\n28/12/26\n\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 43,
+          "quote": "Drug\nINJ HAPPY NERVE PLUS.\n28/12/26  1/3/26\n6 AM  SD  PM\n\nDose\n1 amp\n\nRoute\nIV\n\nFreq\nO T D\n\nDate\n28/12/26\n\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 43,
+          "quote": "Drug\nINJ H. ACTRAPID.\n28/12/26  1/3/26  2/3/16\n6 PM  9:30 am  10 AM\n10 uip  1 refu\n\nDose\n5/5\n\nRoute\nS/C\n\nFreq\n1-1-1\n\nDate\n28/12/26\n\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 44,
+          "quote": "Drug\nINS\nLANTUS\nDose  10 U\nRoute  SLC\nFreq  OD.\nDate  28/2/26\nDoctor's signature"
+        },
+        {
+          "doc": "",
+          "page": 44,
+          "quote": "Drug\nTAB\nDOLO\nDose  650 mg\nRoute  PLO\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature"
+        }
+      ],
+      "notes": "No explicit formal discharge prescription found; used most recent inpatient DRUG CHART entries (pages 42-44)."
+    },
+    "allergies": {
+      "label": "Allergies",
+      "value": "Known Drug Allergies: not known",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 16,
+          "quote": "Any Drug Allergy\nNOT known"
+        },
+        {
+          "doc": "",
+          "page": 17,
+          "quote": "Known Drug Allergies\n- not known -"
+        },
+        {
+          "doc": "",
+          "page": 46,
+          "quote": "Allergic History: \nNot Known"
+        }
+      ],
+      "notes": ""
+    },
+    "follow_up_instructions": {
+      "label": "Follow-up Instructions",
+      "value": "Diet counselling done & diet chart issued. Adv - Strict diet modification; Allow low oil foods; Include fiber rich foods. Discharge on Request (Evening) -> Diet counselling.",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 58,
+          "quote": "Diet counselling done & diet chart issued\n\nAdv\n- Strict diet modification\n- Allow low oil foods\n- Include fiber rich foods"
+        },
+        {
+          "doc": "",
+          "page": 56,
+          "quote": "Advice:\n-7 Ortho opinion\n-5 Discharge on Request (Evening)\n-> Diet counselling"
+        }
+      ],
+      "notes": "Each clause in the value is supported by the provided verbatim quotes."
+    },
+    "pending_results": {
+      "label": "Pending Results",
+      "value": "SAMPLE: URINE FOR CULTURE AND SENSITIVITY\n\nREPORT: NO SIGNIFICANT BACTERIURIA.\n\nColony count: Less Than 10,000 CFU/ML",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 41,
+          "quote": "SAMPLE: URINE FOR CULTURE AND SENSITIVITY\n\nREPORT: NO SIGNIFICANT BACTERIURIA.\n\nColony count: Less Than 10,000 CFU/ML\n\n—End of Report—"
+        },
+        {
+          "doc": "",
+          "page": 2,
+          "quote": "Urine culture and sensitivity sent- report awaited."
+        }
+      ],
+      "notes": "Earlier (PAGE 2) the urine culture was documented as 'report awaited', but a definitive culture result appears on PAGE 41, so this test is not pending."
+    },
+    "discharge_condition": {
+      "label": "Discharge Condition",
+      "value": "Patient discharged at 4 pm. Discharge was on request as advised by doctor. Patient was conscious and oriented and comfortable with no fresh complaints. Patient IP bands removed and billing cleared.",
+      "status": "present",
+      "citations": [
+        {
+          "doc": "",
+          "page": 23,
+          "quote": "4 pm             patient got discharge."
+        },
+        {
+          "doc": "",
+          "page": 22,
+          "quote": "11:30 AM | Patient seen by Dr. advice discharge on request & ortho oppines |"
+        },
+        {
+          "doc": "",
+          "page": 21,
+          "quote": "8pm -> patient change hand over taken from evening duty staff\n-> patient conscious & oriented"
+        },
+        {
+          "doc": "",
+          "page": 9,
+          "quote": "=> patient comfortable\nposition"
+        },
+        {
+          "doc": "",
+          "page": 21,
+          "quote": "12pm patient side rounds done. no any fresh complaints"
+        },
+        {
+          "doc": "",
+          "page": 24,
+          "quote": "PATIENT IP BANDS | Removed ✓"
+        },
+        {
+          "doc": "",
+          "page": 23,
+          "quote": "billing cleared & charges"
+        }
+      ],
+      "notes": "Primary evidence comes from nursing documentation and the discharge checklist; no separate physician discharge summary text stating condition was found beyond 'advice discharge on request'."
+    }
+  },
+  "med_reconciliation": {
+    "added": [
+      {
+        "name": "INJ MEROMAC",
+        "dose": "1 gm",
+        "route": "IV",
+        "freq": "1-1-1"
+      },
+      {
+        "name": "INJ PAN",
+        "dose": "40 mg",
+        "route": "IV",
+        "freq": "1-0-0"
+      },
+      {
+        "name": "INJ EMESET",
+        "dose": "4 mg",
+        "route": "IV",
+        "freq": "1-1-1"
+      },
+      {
+        "name": "INJ Sumol",
+        "dose": "Dose 19 m",
+        "route": "IV",
+        "freq": "SOS"
+      }
+    ],
+    "stopped": [
+      {
+        "name": "INJ NEPONEX",
+        "dose": "1g",
+        "route": "IV",
+        "freq": "8.00 f"
+      },
+      {
+        "name": "INJ PAINODAC",
+        "dose": "40mg",
+        "route": "IV",
+        "freq": "8.00 f"
+      },
+      {
+        "name": "INJ EMSET",
+        "dose": "4mg",
+        "route": "IV",
+        "freq": "10.00 f"
+      },
+      {
+        "name": "INJ SUMO",
+        "dose": "1g",
+        "route": "IV",
+        "freq": "2.00 f"
+      }
+    ],
+    "changed": [
+      {
+        "from": {
+          "name": "INJ HAPPY NERVE Plus",
+          "dose": "1 amp",
+          "route": "IV",
+          "freq": "2.00 A"
+        },
+        "to": {
+          "name": "INJ HAPPY NERVE PLUS",
+          "dose": "1 amp",
+          "route": "IV",
+          "freq": "O T D"
+        }
+      },
+      {
+        "from": {
+          "name": "INJ H. ACTRAPID",
+          "dose": "45 s/c",
+          "route": "s/c",
+          "freq": "8.00 A"
+        },
+        "to": {
+          "name": "INJ H. ACTRAPID",
+          "dose": "10 uip 1 refu",
+          "route": "S/C",
+          "freq": "1-1-1"
+        }
+      },
+      {
+        "from": {
+          "name": "INJ LANTUS",
+          "dose": "100 s/c",
+          "route": "s/c",
+          "freq": "8.00 f"
+        },
+        "to": {
+          "name": "INS LANTUS",
+          "dose": "10 U",
+          "route": "SLC",
+          "freq": "OD"
+        }
+      },
+      {
+        "from": {
+          "name": "T DOLO",
+          "dose": "650 PO",
+          "route": "PO",
+          "freq": "11.00 f"
+        },
+        "to": {
+          "name": "TAB DOLO",
+          "dose": "650 mg",
+          "route": "PO",
+          "freq": "1-1-1"
+        }
+      }
+    ],
+    "continued": [],
+    "changes_without_documented_reason": [
+      {
+        "change": "added",
+        "name": "INJ MEROMAC",
+        "dose": "1 gm",
+        "route": "IV",
+        "freq": "1-1-1"
+      },
+      {
+        "change": "added",
+        "name": "INJ PAN",
+        "dose": "40 mg",
+        "route": "IV",
+        "freq": "1-0-0"
+      },
+      {
+        "change": "added",
+        "name": "INJ EMESET",
+        "dose": "4 mg",
+        "route": "IV",
+        "freq": "1-1-1"
+      },
+      {
+        "change": "added",
+        "name": "INJ Sumol",
+        "dose": "Dose 19 m",
+        "route": "IV",
+        "freq": "SOS"
+      },
+      {
+        "change": "stopped",
+        "name": "INJ NEPONEX",
+        "dose": "1g",
+        "route": "IV",
+        "freq": "8.00 f"
+      },
+      {
+        "change": "stopped",
+        "name": "INJ PAINODAC",
+        "dose": "40mg",
+        "route": "IV",
+        "freq": "8.00 f"
+      },
+      {
+        "change": "stopped",
+        "name": "INJ EMSET",
+        "dose": "4mg",
+        "route": "IV",
+        "freq": "10.00 f"
+      },
+      {
+        "change": "stopped",
+        "name": "INJ SUMO",
+        "dose": "1g",
+        "route": "IV",
+        "freq": "2.00 f"
+      },
+      {
+        "change": "changed",
+        "from": {
+          "name": "INJ HAPPY NERVE Plus",
+          "dose": "1 amp",
+          "route": "IV",
+          "freq": "2.00 A"
+        },
+        "to": {
+          "name": "INJ HAPPY NERVE PLUS",
+          "dose": "1 amp",
+          "route": "IV",
+          "freq": "O T D"
+        }
+      },
+      {
+        "change": "changed",
+        "from": {
+          "name": "INJ H. ACTRAPID",
+          "dose": "45 s/c",
+          "route": "s/c",
+          "freq": "8.00 A"
+        },
+        "to": {
+          "name": "INJ H. ACTRAPID",
+          "dose": "10 uip 1 refu",
+          "route": "S/C",
+          "freq": "1-1-1"
+        }
+      },
+      {
+        "change": "changed",
+        "from": {
+          "name": "INJ LANTUS",
+          "dose": "100 s/c",
+          "route": "s/c",
+          "freq": "8.00 f"
+        },
+        "to": {
+          "name": "INS LANTUS",
+          "dose": "10 U",
+          "route": "SLC",
+          "freq": "OD"
+        }
+      },
+      {
+        "change": "changed",
+        "from": {
+          "name": "T DOLO",
+          "dose": "650 PO",
+          "route": "PO",
+          "freq": "11.00 f"
+        },
+        "to": {
+          "name": "TAB DOLO",
+          "dose": "650 mg",
+          "route": "PO",
+          "freq": "1-1-1"
+        }
+      }
+    ]
+  },
+  "flags": [
+    {
+      "field": "admission_date",
+      "reason": "Conflicting values: 06/02/26 | 26/10/2023",
+      "severity": "critical"
+    },
+    {
+      "field": "discharge_medications",
+      "reason": "Multiple medication additions/stops/changes between admission ICU chart (p37) and discharge drug chart (p42-45) lack documented reasons in source (e.g., NEPONEX stopped, MEROMAC started; PAN/PAINODAC discrepancies). Review medication reconciliation and provide rationale for changes, confirm outpatient prescriptions and routes/doses.",
+      "severity": "warning"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "rules": {
+    "k/c/o": {
+      "Known case of": 1
+    },
+    "inj": {
+      "Injection": 10
+    },
+    "iv": {
+      "Intravenous": 7
+    },
+    "sos": {
+      "As needed": 1
+    },
+    "od. tab": {
+      "Once daily. Tablet": 1
+    },
+    "c/o": {
+      "Complains of": 1
+    },
+    "report awaited.": {
+      "result pending.": 1
+    },
+    "dka.": {
+      "Diabetic ketoacidosis.": 1
+    },
+    "pt": {
+      "patient": 1
+    },
+    "usg": {
+      "Ultrasonography": 2
+    }
+  }
+}

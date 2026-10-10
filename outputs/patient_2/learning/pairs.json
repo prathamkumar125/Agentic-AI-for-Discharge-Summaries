@@ -1,0 +1,72 @@
+[
+  {
+    "field": "admission_date",
+    "label": "Admission Date",
+    "status": "present",
+    "draft": "Admission Date: 26/10/2023",
+    "edited": "Admission Date: 26/10/2023"
+  },
+  {
+    "field": "principal_diagnosis",
+    "label": "Principal Diagnosis",
+    "status": "present",
+    "draft": "ACUTE GASTROENTERITIS WITH DEHYDRATION",
+    "edited": "ACUTE GASTROENTERITIS WITH DEHYDRATION"
+  },
+  {
+    "field": "secondary_diagnoses",
+    "label": "Secondary Diagnoses",
+    "status": "present",
+    "draft": "K/C/O Thyroid disorder on treatment.\nUncontrolled T2 DM\nAKI\nDKA\nB/L pyelonephritis\nAFI",
+    "edited": "Known case of Thyroid disorder on treatment.\nUncontrolled Type 2 diabetes mellitus\nAcute kidney injury\nDiabetic ketoacidosis\nBilateral pyelonephritis\nAFI"
+  },
+  {
+    "field": "hospital_course",
+    "label": "Hospital Course",
+    "status": "present",
+    "draft": "C/O Multiple episodes of loose stools, 2-3 episodes of vomiting, fatigue since 3 days and fever since yesterday. Initially she was treated at local clinic. Patient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited. She was treated with IV fluids, Diagnosis: - DKA. Blood Glucose 443 mg/dL. @6 AM Patient IV medication Inj - Emset 8 mg, Inj - PAN 1 mg, Inj - Meropenem 1 gm, Inj - Happyrone plus given. - pt is stable - symptomatically better now. 4 pm patient got discharge.",
+    "edited": "Complains of Multiple episodes of loose stools, 2-3 episodes of vomiting, fatigue since 3 days and fever since yesterday. Initially she was treated at local clinic. Patient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- result pending. She was treated with Intravenous fluids, Diagnosis: - Diabetic ketoacidosis. Blood Glucose 443 mg/dL. @6 AM Patient Intravenous medication Injection - Emset 8 mg, Injection - PAN 1 mg, Injection - Meropenem 1 gm, Injection - Happyrone plus given. - patient is stable - symptomatically better now. 4 pm patient got discharge."
+  },
+  {
+    "field": "procedures",
+    "label": "Procedures",
+    "status": "present",
+    "draft": "USG abdomen and pelvis (bedside)\nUSG ABDOMEN & PELVIS (detailed report)\nC.T. KUB (PLAIN)\nADULT TRANS-THORACIC ECHO / 2D Echo\nCBC\nSerum creatinine (initial 1.65mg/dl; repeat Serum Creatinine(1.17mg/dl) done)\nSerum electrolytes (noted low serum sodium)\nTSH and Free T4\nStool routine\nUrine routine\nUrine for culture and sensitivity (report available)\nFoley's bulb in situ (urinary catheter)\nECG (documented on discharge checklist)",
+    "edited": "Ultrasonography abdomen and pelvis (bedside)\nUltrasonography ABDOMEN & PELVIS (detailed report)\nC.T. KUB (PLAIN)\nADULT TRANS-THORACIC ECHO / 2D Echo\nCBC\nSerum creatinine (initial 1.65mg/dl; repeat Serum Creatinine(1.17mg/dl) done)\nSerum electrolytes (noted low serum sodium)\nTSH and Free T4\nStool routine\nUrine routine\nUrine for culture and sensitivity (report available)\nFoley's bulb in situ (urinary catheter)\nECG (documented on discharge checklist)"
+  },
+  {
+    "field": "discharge_medications",
+    "label": "Discharge Medications",
+    "status": "present",
+    "draft": "DRUG CHART (medications as on drug chart):\nDrug INJ MEROMAC\nDose 1 gm\nRoute IV\nFreq 1-1-1\n\nDrug INJ PAN\nDose 40 mg\nRoute IV\nFreq 1-0-0\n\nDrug INJ EMESET\nDose 4 mg\nRoute IV\nFreq 1-1-1\n\nDrug\nINJ Sumol\nDose\n19 m\nRoute\nIV\nFreq\nSOS\n\nDrug\nINJ HAPPY NERVE PLUS.\nDose\n1 amp\nRoute\nIV\nFreq\nO T D\n\nDrug\nINJ H. ACTRAPID.\nDose\n5/5\nRoute\nS/C\nFreq\n1-1-1\n\nINS LANTUS\nDose 10 U\nRoute SLC\nFreq OD.\n\nTAB DOLO\nDose 650 mg\nRoute PLO\nFreq 1-1-1",
+    "edited": "DRUG CHART (medications as on drug chart):\nDrug Injection MEROMAC\nDose 1 gm\nRoute Intravenous\nFreq 1-1-1\n\nDrug Injection PAN\nDose 40 mg\nRoute Intravenous\nFreq 1-0-0\n\nDrug Injection EMESET\nDose 4 mg\nRoute Intravenous\nFreq 1-1-1\n\nDrug\nInjection Sumol\nDose\n19 m\nRoute\nIntravenous\nFreq\nAs needed\n\nDrug\nInjection HAPPY NERVE PLUS.\nDose\n1 amp\nRoute\nIntravenous\nFreq\nO T D\n\nDrug\nInjection H. ACTRAPID.\nDose\n5/5\nRoute\nS/C\nFreq\n1-1-1\n\nINS LANTUS\nDose 10 U\nRoute SLC\nFreq Once daily.\n\nTablet DOLO\nDose 650 mg\nRoute PLO\nFreq 1-1-1"
+  },
+  {
+    "field": "allergies",
+    "label": "Allergies",
+    "status": "present",
+    "draft": "Not Known",
+    "edited": "none known"
+  },
+  {
+    "field": "follow_up_instructions",
+    "label": "Follow-up Instructions",
+    "status": "present",
+    "draft": "Follow-up / Discharge instructions:\n- Diet counselling and dietary advice: \"- Strict diet modification\"; \"- Allow low oil foods\"; \"- Include fiber rich foods\".\n- Urology review and imaging: \"Adv - CT KUB - urologist opinion\"; \"Adv: - Urologist opinion\".\n- Continue current treatment: \"Plan -> Reassured -> continue same Treatment\".\n- Laboratory tests and monitoring: \"Advice - use abd & pelvis - stat ERBS 2nd hourly - CBC - S. Ureat - Urine routine - S. NAT @ 3 pm\"; \"Advice: CBC Sr. Creat GRBS - 297 T/M\"; \"- 8th hourly GRBS monitor\".\n- Other dispositions: \"Shift to ward by evening\"; \"-> Diet counselling\".",
+    "edited": "Follow-up / Discharge instructions:\n- Diet counselling and dietary advice: \"- Strict diet modification\"; \"- Allow low oil foods\"; \"- Include fiber rich foods\".\n- Urology review and imaging: \"Advised - CT KUB - urologist opinion\"; \"Advised: - Urologist opinion\".\n- Continue current treatment: \"Plan -> Reassured -> continue same Treatment\".\n- Laboratory tests and monitoring: \"Advice - use abd & pelvis - stat ERBS 2nd hourly - CBC - S. Ureat - Urine routine - S. NAT @ 3 pm\"; \"Advice: CBC Serum Creat Random blood glucose - 297 T/M\"; \"- 8th hourly Random blood glucose monitor\".\n- Other dispositions: \"Shift to ward by evening\"; \"-> Diet counselling\"."
+  },
+  {
+    "field": "pending_results",
+    "label": "Pending Results",
+    "status": "pending",
+    "draft": "urine culture and sensitivity sent- report awaited.",
+    "edited": "urine culture and sensitivity sent- result pending."
+  },
+  {
+    "field": "discharge_condition",
+    "label": "Discharge Condition",
+    "status": "present",
+    "draft": "Patient seen by Dr. — advice discharge on request & ortho oppines. Patient got discharge. Patient conscious & oriented.",
+    "edited": "Patient seen by Dr. — advice discharge on request & ortho oppines. Patient got discharge. Patient conscious & oriented."
+  }
+]

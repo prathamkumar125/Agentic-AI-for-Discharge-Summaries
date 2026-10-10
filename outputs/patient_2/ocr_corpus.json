@@ -1,0 +1,1463 @@
+{
+  "patient_id": "patient_2",
+  "generated_at": "2026-06-03T04:36:58+00:00",
+  "n_pages": 71,
+  "n_ocr_errors": 0,
+  "n_ocr_warnings": 1,
+  "sources": [
+    "patient_notes.pdf"
+  ],
+  "doc_type_index": {
+    "discharge": [
+      1,
+      24
+    ],
+    "imaging": [
+      2,
+      30,
+      32,
+      36,
+      41
+    ],
+    "er": [
+      3,
+      4
+    ],
+    "labs": [
+      5,
+      6,
+      27,
+      28,
+      29,
+      31,
+      33,
+      34,
+      40
+    ],
+    "nursing": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+    ],
+    "other": [
+      35,
+      71
+    ],
+    "medication": [
+      37,
+      38,
+      39,
+      42,
+      43,
+      44,
+      45
+    ],
+    "admission": [
+      46,
+      47,
+      48
+    ],
+    "consultation": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+    ]
+  },
+  "pages": [
+    {
+      "global_page": 1,
+      "source": "patient_notes.pdf",
+      "src_page": 1,
+      "png": "cache/pages/patient_2/patient_notes_p001_dpi150_edge2048.png",
+      "doc_type": "discharge",
+      "doc_type_detail": {
+        "method": "body",
+        "title": "DIAGNOSIS: 1) ACUTE GASTROENTERITIS WITH DEHYDRATION 2) URINARY TRACT INFECTION",
+        "scores": {
+          "discharge": 3,
+          "labs": 1
+        }
+      },
+      "ocr": {
+        "text": "DIAGNOSIS:\n1) ACUTE GASTROENTERITIS WITH DEHYDRATION\n2) URINARY TRACT INFECTION\n\nHISTORY: C/O Multiple episodes of loose stools, 2-3 episodes of vomiting, fatigue since 3 days and fever since yesterday.\nInitially she was treated at local clinic.\n\nPAST HISTORY: K/C/O Thyroid disorder on treatment.\n\nPHYSICAL EXAMINATION:\nPR-89/min, BP-130/80 mmHg, RR-20/min, SPO2-98% at room air.\nCNS-Conscious Oriented\nCVS-S1S2(+)\nRS-B/L NVBS(+)\nPA-Soft, non tender\n\nINVESTIGATIONS:\nReports Enclosed\n\nCOURSE IN THE HOSPITAL:\nPatient presented to us with above mentioned complaints. After evaluation, she was admitted to ward. Initial investigations showed normal CBC. Serum creatinine (1.65mg/dl) done was elevated. Serum electrolytes done showed low serum sodium(128.00mmol/L). Urine routine done showed ketone bodies(+), 10-12/hpf of pus cells, 15-20/hpf of epithelial cells with presence of bactreia hence urine culture and sensitivity sent- report awaited. She was treated with IV fluids,",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 2,
+      "source": "patient_notes.pdf",
+      "src_page": 2,
+      "png": "cache/pages/patient_2/patient_notes_p002_dpi150_edge2048.png",
+      "doc_type": "imaging",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "IV ANTIBIOTICS, IV PPI'S, IV ANTIEMETICS AND OTHER SUPPORTIVE MEASURES. USG ABDO",
+        "matched": "USG"
+      },
+      "ocr": {
+        "text": "IV antibiotics, IV PPI's, IV antiemetics and other supportive measures. USG abdomen and pelvis done showed Grade-I fatty liver changes and mildly edematous part of ascending colon upto the hepatic flexure- could represent colitis. Repeat Serum Creatinine(1.17mg/dl) done was normal. TSH and Free T4 done were normal. Stool routine done showed 2-3/hpf of red blood cells, plenty/hpf of pus cells. Patient was adviced to stay back for further management but attenders not willing to the same, hence being discharged at request with following advice.\n\nCONDITION AT DISCHARGE:\nHemodynamically stable\n\nADVICE ON DISCHARGE:\n\n| No. | Medication Name   | Dosage | Frequency | Duration               |\n|-----|-------------------|--------|-----------|------------------------|\n| 1   | TAB. RACIPER      | 40MG   | 1-0-0     | 7 DAYS (BEFORE FOOD)   |\n| 2   | TAB. EMESET       | 4MG    | 1-1-1     | 3 DAYS                 |\n| 3   | TAB. OFLOX TZ     |        | 1-0-1     | 5 DAYS                 |\n| 4   | TAB M STRONG      |        | 1-0-0     | 15 DAYS                |\n| 5   | TAB. ZEDOTT       |        | 1-1-1     | 3 DAYS                 |\n| 6   | TAB. ENTR(        |        | 1-0-1     | 3 DAYS                 |\n| 7   | TAB. MEFTAL SPAS  |        | 1 TAB SOS | 4 TABLETS              |\n| 8   | TAB. LOPIRAMIDE   | 2MG    | 1-0-1     | 5 DAYS                 |\n\nFOLLOW-UP INSTRUCTIONS:\nUrine culture and sensitivity sent- report awaited.\nReview immediately in case of fever, loose stools, vomiting, fatigue.\nReview on 09.03.2026. CBC",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 3,
+      "source": "patient_notes.pdf",
+      "src_page": 3,
+      "png": "cache/pages/patient_2/patient_notes_p003_dpi150_edge2048.png",
+      "doc_type": "er",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ER OBSERVATION CHART(1) MRN: _ ER 6  ✔️  OP ☐",
+        "matched": "ER OBSERVATION"
+      },
+      "ocr": {
+        "text": "ER OBSERVATION CHART(1)\n\nMRN: _\n\nER 6  ✔️  OP ☐\n\nTriage Category\nRed       Yellow ✔️       Green\n\nMLC No-\n\nDiagnosis:\n- DKA\n\nTime of arrival\nER Doctor: Time of response  6:14 PM\nTime of response  6:14 PM\n\nVITAL PARAMETERS\n\nTime  6:14 PM          Time  6:14 PM\n\nPulse  116 b/m        Sao2 Oxygen\n\nBP  87/150             RR  22 b/m\n\nTemp  98°F             Urine output (mL/hr)\n\nSaO2 on air  96%       Blood Glucose  443 mg/dL\n\nGCS  15/15             Pain score  4/10\n\nProcedures  Pain scale  4/10\n\n-> IV Cannulization done in left hand 20g\n\nNote: If score is > 2 please speak to consultant\n\nInvestigations: (Lab, Radiology, Pathology, others)\n\nCBL, Crossmt, S.E\nABG, urine D Report\nECG  Sent to lab\n\nTime (patient/sample) sent\n\nReport\nReport\nReceived\n\nReferred To:\n\nSpecialty _______\n\nSpecialty _______\n\nSpecialty _______\n\nSpecialty _______  Dr. Consultant _______\n\nother orders:",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 4,
+      "source": "patient_notes.pdf",
+      "src_page": 4,
+      "png": "cache/pages/patient_2/patient_notes_p004_dpi150_edge2048.png",
+      "doc_type": "er",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ER OBSERVATION CHART(2) | IV INFUSION | DOCTOR SIGN | AMT | RATE | VERIFIED BY |",
+        "matched": "ER OBSERVATION"
+      },
+      "ocr": {
+        "text": "ER OBSERVATION CHART(2)\n\n| IV Infusion | Doctor Sign | Amt | Rate | Verified by | Administered by | Start Time | End Time |\n|-------------|-------------|-----|------|-------------|-----------------|------------|----------|\n| Inf NS      | [signature] | 2 Boles | [illegible] | [illegible] | [illegible] | 6:14 PM | 9:00 PM |\n\nMedication Administration\n\n| Name of drug/ strength | Dosage & Route | Sign of Doctor | Time | Verified by | Administered by | Time |\n|------------------------|----------------|----------------|------|-------------|-----------------|------|\n| INJ PAN                | 40 mg IV       | [signature]    | 6:14 PM | [illegible] | [illegible] | 6:14 PM |\n| INJ EMSET              | 4 mg IV        | [signature]    | 6:14 PM | [illegible] | [illegible] | 6:14 PM |\n\n☑ Patient advised admission to ward/ICU  [illegible]\n☐ Patient advised discharge / referred to outside hospital\n☐ Refusal of Treatment",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 5,
+      "source": "patient_notes.pdf",
+      "src_page": 5,
+      "png": "cache/pages/patient_2/patient_notes_p005_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION CHECKLIST DATE          TIME       INVESTIGATION NAME          REM",
+        "matched": "INVESTIGATION CHECKLIST"
+      },
+      "ocr": {
+        "text": "INVESTIGATION CHECKLIST\n\nDate          Time       Investigation Name          Remarks          Staff Name\n13/3/26      7:00 am    CBC\n                          S. Creat                  In form",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 6,
+      "source": "patient_notes.pdf",
+      "src_page": 6,
+      "png": "cache/pages/patient_2/patient_notes_p006_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATIONS (1) CLC: TIME",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATIONS (1)\n\nCLC:\nTIME\n28/2/26\n1/3/26\n\nHb\n10.4 gm/dl\n10.7 gm/dl\n\nTLC\n7800 cells/cmm\n11560 cells/cmm\n\nDLC\n\nPLAT\n1.28 lakh\n1.60 lakh cmm\n\nESR\n\nURINE:\nDATE\n\nPROTIEN\n\nSUGAR\n\nKETONES/ CAST/CRYSTAL\n\nRBC\n\nWBC\n\nSTOOL\n\nROUTINE BIOCHEMISTRY:\n\nDATE\n28/2/26\n1/3/26\n\nRBS\n\nFBS\n\nPPBS\n\nUREA\n\nCREATININE\n1.02 mg/dl\n1.04 mg/dl\n\nSODIUM\n\nPOTASSIUM\n\nDATE  T.Bil  D.Bil  AST  ALT  AI.P.  T.P.  ALB  GLD  BT  CT  PT  APTT\n\nOTHER BIOCHEMICAL INVESTIGATIONS:\n\nOTHER INVESTIGATIONS:\n\nDATE  Sputum AFB  Mantoux  QBC MP  Lepto  Widal  HIV  HAV  HBV  HCV",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 7,
+      "source": "patient_notes.pdf",
+      "src_page": 7,
+      "png": "cache/pages/patient_2/patient_notes_p007_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM 8 PM TO 8 AM)                                       ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From 8 pm to 8 am)                                                                                      Date: 27/2/20\n\n8:15 pm -> Patient hand over taken from evening duty staff to night duty staff\n-> Patient Bed rounds done\n-> Patient conscious and oriented\n-> Patient IV cannula present\n-> Patient Foley's catheter present\n-> Patient Infusomol IV is on flow\n-> Patient 2nd hourly GPRBS monitoring present\n-> Patient vital signs monitored\n       Temp: - 98°F\n       BP: - 110/80 mmHg\n       PR: - 85 b/min\n       RR: - 23 b/min\n       SpO2: - 98%\n\n9 pm -> Patient CT EVB plan, Foley's catheter clamped as per Dr. advice\n-> Patient orally soft diet taken\n\n10 pm -> Patient had one episode of chills and Tachypnoea, Tachycardia (7) informed to Dr. and advice Inj. Tramadol 2 ml + 3 ml NS < 5 ml 3 ml IV as per advice given",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 8,
+      "source": "patient_notes.pdf",
+      "src_page": 8,
+      "png": "cache/pages/patient_2/patient_notes_p008_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM 8 PM TO 8.30 AM)                                    ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From 8 pm to 8.30 am)                                                                                      Date: 27/2/26\n\n11 pm -> Patient CT KUB cancelled due to night duty leave due to patient’s condition’s\n\n12 pm -> Patient had a fever spike Temp: 103°F informed to Dr. Sama mam and advice Inj - PCT 1 gm as per advice given\n\n1 am -> Patient was settled\n\n9 am -> Patient had a Good Sleep.\n\n5 am -> Patient Bed bath given. Bed making done, comfortable position given.\n          -> Patient bowel opened.\n\n@6 AM Patient IV medication\nInj - Emset 8 mg, Inj - PAN 1 mg,\nInj - Meropenem 1 gm, Inj - Happyrone plus given\n\n@7 am Patient GRBS checked and recorded in chart.\n\n@8 am Patient Hand over given to Morning duty Staff",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 9,
+      "source": "patient_notes.pdf",
+      "src_page": 9,
+      "png": "cache/pages/patient_2/patient_notes_p009_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM....... 8 AM TO.. 2 PM ..) DATE: 28|2|26 9 AM",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From....... 8 am to.. 2 pm ..) Date: 28|2|26\n\n9 am\n=> patient change hand over\ntaken from night duty\nstaff to monitor duty\nstaff\n=> patient block rounds is\nDone\n=> patient vital sign checked\nand revealed\nBp - 120/80 mm Hg\nSpo2 - 98%\nHR - 65 b/m\nRR - 20 b/m\n=> patient IV cannula perrul (F)\n=> patient Foley perrul (P)\n=> patient Ilo monitory\n=> patient comfortable\nposition\n=> patient CT KUL is Done\nfoly is Done\n=> patient IV fluid 150 ml\nper hour ongoing\n=> patient seen by Dr\nChemoush sig Add PO\nShif to word.\n=> patient",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 10,
+      "source": "patient_notes.pdf",
+      "src_page": 10,
+      "png": "cache/pages/patient_2/patient_notes_p010_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM 8 AM TO 2 PM)                                       ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From 8 am to 2 pm)                                                                                      Date: 28/2/26\n\n(1 AM) \n=>  ID entered Seen By Dr Sir Aelu\n=>  To \"CBC\" in [illegible] Ths\n=>  patient slip to word P\n=>  urine opning\n=>  Patient Seen By Dr Sir Aelu TO\n      c.s.u.t. (CT KUD report)\n=>  patient slip to ward din\n=>  patient ref- canthus 10 ml given\n=>  patient Iv medication given as per dry chart\n=>  patient call super level given to word staff\n=>  patient EYABS IS closed and enoral 2 hrs\n=>  pf cheery hand over given to SCREEN staff to word staff",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 11,
+      "source": "patient_notes.pdf",
+      "src_page": 11,
+      "png": "cache/pages/patient_2/patient_notes_p011_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "BED SORES 26/2/22 8 PM TO 8 AM",
+        "matched": "BED SORE"
+      },
+      "ocr": {
+        "text": "BED SORES\n\n26/2/22\n8 pm to 8 am\n\n- no bed sore -\n\nPULSES + -\n\nBed sores stage\n\nStage 1. : Redness of the skin (upper\nStage 2. : Formation of blisters / Below surface of skin\nStage 3. : Damage to skin (second layer of skin into the fat issue\nStage 4. : Tissue Loss (Effect muscle & ligaments)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 12,
+      "source": "patient_notes.pdf",
+      "src_page": 12,
+      "png": "cache/pages/patient_2/patient_notes_p012_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "BED SORES 27/2/22 @ 8 AM TO 2 PM",
+        "matched": "BED SORE"
+      },
+      "ocr": {
+        "text": "BED SORES\n\n27/2/22\n@ 8 am to 2 pm\n\nno bed sores\n\nPULSES + -\n\nBed sores stage\n\nStage 1. : Redness of the skin (upper\nStage 2. : Formation of blisters / Below surface of skin\nStage 3. : Damage to skin (second layer of skin into the fat issue\nStage 4. : Tissue Loss (Effect muscle & ligaments)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 13,
+      "source": "patient_notes.pdf",
+      "src_page": 13,
+      "png": "cache/pages/patient_2/patient_notes_p013_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "BED SORES PULSES + - BED SORES STAGE",
+        "matched": "BED SORE"
+      },
+      "ocr": {
+        "text": "BED SORES\n\nPULSES + -\n\nBed sores stage\n\nStage 1. : Redness of the skin (upper\nStage 2. : Formation of blisters / Below surface of skin\nStage 3. : Damage to skin (second layer of skin into the fat issue\nStage 4. : Tissue Loss (Effect muscle & ligaments)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 14,
+      "source": "patient_notes.pdf",
+      "src_page": 14,
+      "png": "cache/pages/patient_2/patient_notes_p014_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "BED SORES 28/2/26 @ 8AM TO 2PM",
+        "matched": "BED SORE"
+      },
+      "ocr": {
+        "text": "BED SORES\n\n28/2/26\n@ 8am to 2pm\n\nno bed sores\n\nPULSES + -\n\nBed sores stage\n\nStage 1. : Redness of the skin (upper\nStage 2. : Formation of blisters / Below surface of skin\nStage 3. : Damage to skin (second layer of skin into the fat issue\nStage 4. : Tissue Loss (Effect muscle & ligaments)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 15,
+      "source": "patient_notes.pdf",
+      "src_page": 15,
+      "png": "cache/pages/patient_2/patient_notes_p015_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "PROCEDURE CHART WEIGHT: 7.1 KG DEPARTMENT: INTERNAL MEDICINE",
+        "matched": "PROCEDURE CHART"
+      },
+      "ocr": {
+        "text": "PROCEDURE CHART\n\nWeight: 7.1 kg\nDepartment: Internal Medicine\n\nDate\n26/8/26\n27/2/26\n28/7/26\n1/3/26\n2/3/26\n\nProcedures\n\nIV Cannulization\nyes (18-G)\nyes 24\nyes 18 G\nyes (18 G)\nyes (21 G)\n\nN.G. Tube Insertion\n\nFelley's Catheterisation\nyes 16 F\nyes 16 F\nyes 16 F\nR/L Remove\n\nL.P.\n\nI.C.D.\n\nC.V.P.\n\nIntubation\n\nP.D.\n\nPhototherapy\nyes\n\nUrine C./S.\nyes\n\nBlood C./S.\n\nPD Sets & Vein O Line\nyes (room)\nyes\nyes\nyes\nyes\n\nOxygen\nyes\n\nVentilator\n\nBubble CPAP\n\nNPO2\n\nHFNC\n\nViral Serology/Study\n\nBone marrow\n\nUSG/ECHO\nyes\n\nTapping\n\nBlood Transfusion\n\nDressing\n\nSignature",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 16,
+      "source": "patient_notes.pdf",
+      "src_page": 16,
+      "png": "cache/pages/patient_2/patient_notes_p016_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING ASSESSMENT ON ADMISSION DATE & TIME OF NURSING INITIAL ASSESSMENT: 26-2-",
+        "matched": "NURSING ASSESSMENT"
+      },
+      "ocr": {
+        "text": "NURSING ASSESSMENT\nON ADMISSION\n\nDate & Time of Nursing Initial Assessment: 26-2-26 6:14 PM General Consent Signed: Yes / No\n\nVital Signs | Temp 98°F | Pulse: 116 b /Min | Resp: 22 b /Min | BP: 87/50\n\nHeight | Weight 71 kg | Blood Group | SPO2 (if required) 98 | GRBS (if required) 443\n\nComplaints during admission and its duration\nFever, generalized weakness since 3 days\n\nNeurological\nOriented: Yes / No ✓ | Speech: Clear / Slurred ✓ | Speech: Clear / Slurred ✓\nLevel of Consciousness\nConscious / Semiconscious / Unconscious\nVisual Impairment: None / Wears Spectacles / Blind - L R\nExtremity Strength: Equal / Unequal ✓\nPupils: Equal / Unequal / Reactive / Sluggish ✓\nHearing Impairment: None\nUses Aids / Deaf - L - R ✓\nPain: Yes / No\nLocation: Body ✓\n\nPain Scale\n0 No Pain | 2 Little Pain | 4 Mild Pain ✓ | 6 Moderate Pain | 8 Severe Pain | 10 Worst Pain ✓\n\nAirway / Breathing\nAirway: Clear / Obstructed ✓\nDyspnea: Present / Absent ✓\nWheezing: Yes / No ✓\nCough: Yes / No ✓\nSputum: Yes / No ✓\n\nCirculation\nEdema: Present / Absent ✓\nLocation of Edema\nSkin Perfusion: Warm / Dry / Cool / Diaphoretic ✓\nCapillary refill: < 3 Secs / > 3 Secs\n\nSkin & Mucous Membrane\nColour: Fresh / Pale / Flushed / Cyanotic / Jaundiced ✓\nTemp: Cool / Warm / Hot ✓\nMoisture: Dry / Clammy\nTurgor: Good / Fair / Poor ✓\nMucous membrane: Intact / Impaired ✓\nCondition: Pink / Pale / Moist / Dry\n\nGastrointestinal\nLoss of Appetite: Yes / No ✓\nNausea / Vomiting / Diarrhoea / Constipation\nAbdomen: Soft / Firm / Tender / Distention / Expelling Flatus\nSwallowing difficulty: Yes / No ✓\n\nGenitourinary\nDysuria: Yes / No ✓\nFrequency:\nIncontinence: Yes / No ✓\nHematuria: Yes / No ✓\n\nAny Drug Allergy\nNOT known",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 17,
+      "source": "patient_notes.pdf",
+      "src_page": 17,
+      "png": "cache/pages/patient_2/patient_notes_p017_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES - NOT KNOWN -",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\n- not known -\n\nDate & Time: 06/02/26\n\nObservation / Nsg Action / Response / Plan\n\n- patient received to casualty,\n- patient complaints to fever and general weakness,\n- patient conscious and oriented,\n- patient checked the vital sign and recorded in ER chart,\n- patient seen by Dr. [illegible],\n- patient IV cannulation done 20 g [illegible] hand,\n- patient IV medications given,\n- patient blood investigations send to labs collect the all reports,\n- patient ECG done,\n- patient prepared to bed position,\n- patient case and blood reports inform to Dr. Shurya Sampad,\n- patient admission to HDU,\n- patient hand out to 3rd floor HDU evening staff.\n\nNB: All injections to be initiated by persons administering and witnessing\n* Date Of Admission 06/02/26\n** Known Drug Allergies not known",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 18,
+      "source": "patient_notes.pdf",
+      "src_page": 18,
+      "png": "cache/pages/patient_2/patient_notes_p018_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES NOT KNOWN",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\nnot known\n\nDate & Time\n28/2/26\n4 pm\n5:30 pm\n8 pm\n9 pm\n\nObservation / Nsg Action / Response / Plan\npatient received to SDW to 1st floor Elmo\npatient said sounds don't\npatient clariend & conscious\nRe cannula & op band presents PC penil\nDr,\nerr swells don't Adress CT GPBS 8th hourly\nPLC Remove Tmg\nCBC ser. creat Tmg\npatient cheury heard\noxys given to night duty staffs\npatient cheury heard given taken from evening duty staff\npatients conscious & oriented\npatient in cannula & op band present\npatient vitals checked & recorded to moni\n- tearing chao\n\nStaff Name & ID\n\nNB: All injections to be initiated by persons administering and witnessing\n* Date Of Admission\n** Known Drug Allergies",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 19,
+      "source": "patient_notes.pdf",
+      "src_page": 19,
+      "png": "cache/pages/patient_2/patient_notes_p019_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES 28/2/26 - NOT KNOWN",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\n28/2/26 - not known\n\nDate & Time Observation / Nsg Action / Response / Plan Staff Name & ID\n\n10pm -> patient oral medication & au medication given as per drug chart\n\n11pm -> patient temp 103°F to inform M/R Ralesth sir to doctor\n\n1/3/26\n12am -> patient spcl scince don no any fresh complaint\n\n2am -> patient spcl scince don patient sleep well\n\n5am -> patient sick bed meeting done\n\n6am -> patient no medication given as per drug chart\n\n7am -> patient CBC, scince send to lab support due\n\n7.45am -> patient PIC removed\n\n8am -> patient change hand out gauze do morning dress\n\nNB: All injections to be initiated by persons administering and witnessing\n\n* Date Of Admission\n** Known Drug Allergies",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 20,
+      "source": "patient_notes.pdf",
+      "src_page": 20,
+      "png": "cache/pages/patient_2/patient_notes_p020_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES - NOT KNOWN -",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\n- not known -\n\nDate & Time | Observation / Nsg Action / Response / Plan | Staff Name & ID\n1/3/26 9:01 | patient change hand over taken to night duty staff to morning duty staff | \n- patient solid schedule done\n- patient oriented & consi- \n- ous\n- iv cannula & ep band present\n- vital signs checked & recorded for monitor - irg charts\n10m | oral medication delivered as per drug chart\n11:00 | Dr. review done advise cbt\n2pm | 8u medications given as per drug chart\n4pm | Patient vitals are checked & recorded\n- Patient Temperature checked Temperature is 99.1F inform to duty doctor and patient 6 spung bath given\n\nNB: All injections to be initiated by persons administering and witnessing\n* Date Of Admission\n** Known Drug Allergies",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 21,
+      "source": "patient_notes.pdf",
+      "src_page": 21,
+      "png": "cache/pages/patient_2/patient_notes_p021_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES NO",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\nNo\nDate & Time / Observation / Nsg Action / Response / Plan / Staff Name & ID\n\n7pm Patient Chief complaints on leg pain, inform to duty doctor advice to send 1\n8pm 1gm IV eymon\n- patient hand over given to night duty staff\n8pm -> patient change hand over taken from evening duty staff\n-> patient conscious & oriented\n-> patient no cannula & OD band present\n9pm -> patient vital checked & recorded to monitor -ing chart\n10pm patient oral medication given as per drug chart\n9/3/26\n12pm patient side rounds done. no any fresh complaints\n2am -> patient side rounds done. patient sleeped well\n\nNB: All injections to be initiated by persons administering and witnessing\n* Date Of Admission\n** Known Drug Allergies\n\nNO HURT  2 HURTS LITTLE BIT  4 HURTS LITTLE MORE  6 HURTS EVEN MORE  8 HURTS WHOLE LOT  10 HURTS WORST",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 22,
+      "source": "patient_notes.pdf",
+      "src_page": 22,
+      "png": "cache/pages/patient_2/patient_notes_p022_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES 9/3/26 - NOT KNOWN -",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies\n9/3/26 - not known -\n\nDate & Time | Observation / Nsg Action / Response / Plan | Staff Name & ID\n---|---|---\n5 AM | patient side bed meeting done. | \n6 AM | patient aw medication given as per drug chart | \n7 PM | patient BRBS checked & recorded to BRBS chart | \n8 AM | patient cheery hand over given to morning duty staff | \n8 AM | Patient hand over taken from Night duty staff | \n- | Patient is conscious & oriented | \n- | Patient vitals are checked & recorded | \n9 AM | Patient side rounds re done | \n10 AM | Patient oral medication advice as per drug chart | \n11:30 AM | Patient seen by Dr. advice discharge on request & ortho oppines | \n- | Patient seen by Dr. | \n12 PM | advice x-ray after review inform report |\n\nNB: All injections to be initiated by persons administering and witnessing  \n* Date Of Admission  \n** Known Drug Allergies",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 23,
+      "source": "patient_notes.pdf",
+      "src_page": 23,
+      "png": "cache/pages/patient_2/patient_notes_p023_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSES NOTES KNOWN DRUG ALLERGIES  9/3/23 DATE & TIME       OBSERVATION / NSG AC",
+        "matched": "NURSES NOTES"
+      },
+      "ocr": {
+        "text": "NURSES NOTES\n\nKnown Drug Allergies  9/3/23\n\nDate & Time       Observation / Nsg Action / Response / Plan       Staff Name & ID\n\n2 pm             Patient free send no discharge summary & billing\n                 - pre received to summary & billing\n\n2 pm             Advise medication explains\n                 - results education given\n                 - opd file original summary all original receipts send to patient attneds\n\n3 pm             Ep band removed\n                 Dr consult not approved\n                 - Dr discharge busy\n                 - on medication advised\n                 - billing cleared & charges\n                 - ship received\n\n4 pm             patient got discharge.\n\nNB: All injections to be initiated by persons administering and witnessing\n\n* Date Of Admission\n** Known Drug Allergies",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 24,
+      "source": "patient_notes.pdf",
+      "src_page": 24,
+      "png": "cache/pages/patient_2/patient_notes_p024_dpi150_edge2048.png",
+      "doc_type": "discharge",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DISCHARGE CHECK LIST SL NO | DETAILS | REMARKS ---|---|---",
+        "matched": "DISCHARGE CHECK"
+      },
+      "ocr": {
+        "text": "DISCHARGE CHECK LIST\n\nSL NO | DETAILS | REMARKS\n---|---|---\n1 | PATIENT DETAILS FULL NAME AGE/GENDER IP NO DATE OF ADMISSION DATE OF DISCHARGE | \n2 | DISCHARGE SUMMARY | [handwritten text] ✓\n3 | DISCHARGE MEDICATION | [handwritten text]\n4 | BLOOD REPORTS | [handwritten text] ✓\n5 | RADIOLOGY REPORTS-CT/X-RAY | [handwritten text] ✓\n6 | USG REPORTS | [handwritten text] ✓\n7 | MRI REPORTS | [handwritten text]\n8 | ECG | [handwritten text] ✓\n9 | ECHO | [handwritten text] ✓\n10 | PATIENT IP BANDS | Removed ✓\n11 | IV CANNULA | not removed [handwritten text] ✓\n12 | CVP | [handwritten text]\n13 | OXYGEN | [handwritten text]\n14 | OTHER REPORTS OR FORMS | [handwritten text] ✓\n15 | OPD FILE AND OLD REPORTS | [handwritten text] ✓\n16 | BILLING CLEARANCE | [handwritten text] ✓\n17 | ICU Chart | attached\n\nDISCHARGE STAFFS NAME:  \nCROSS CHECKED INCHARGE  \nRECIVED PATIENT OR ATTEND",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 25,
+      "source": "patient_notes.pdf",
+      "src_page": 25,
+      "png": "cache/pages/patient_2/patient_notes_p025_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DIABETS HOSPITAL MONITORING CHART DATE       VALUES     BBF     ABF     BL      ",
+        "matched": "MONITORING CHART"
+      },
+      "ocr": {
+        "text": "DIABETS HOSPITAL MONITORING CHART\n\nDATE       values     BBF     ABF     BL       AL       BD       AD       Midnight     Remarks\n28/2/26              BS               267                          389                          9\n                     Insulin dose    16U                          20U\n1/3/26               BS        265             178                 270 mgdl                 3\n                     Insulin dose  226 H.A.  12 IU (Bi Lantus)       12 EU\n2/3/26               BS        267             167 mgdl\n                     Insulin dose  18U (H.A.)  12 EU (Ins Lantus)                              1\n\nBS\n\nInsulin dose\n\nBS\n\nInsulin dose\n\nBS\n\nInsulin dose\n\nBS\n\nInsulin dose\n\nBS-Blood Sugar(GRBSL/RBSL)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 26,
+      "source": "patient_notes.pdf",
+      "src_page": 26,
+      "png": "cache/pages/patient_2/patient_notes_p026_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "body",
+        "title": "DATE OF INSERTION: 29/9/26 TIME: 09 AM INSERTED BY: MEHARUN",
+        "scores": {
+          "nursing": 8
+        }
+      },
+      "ocr": {
+        "text": "DATE OF Insertion: 29/9/26\nTIME: 09 am\nInserted BY: Meharun\n\nCAUTI (Catheter Associated Urinary Tract Infection)\n\n| Days | Check the clinical indication why the catheter is in-situ, is it still required | Routine daily meatal hygiene (catheter care)? | Perform hand hygiene and wear gloves prior to catheter care/insertion/maintenance? | Indwelling catheters secured? | Sterile, continuously closed drainage system used? | Catheter and drainage tube always connected? | Unobstructed urine flow present? | Collecting bag regularly emptied? | Collecting bag always below the level of the bladder? | Signature of Staff Nurse |\n|-------|------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------|----------------------------|--------------------------------------------|---------------------------------|----------------------------|----------------------------|--------------------------------|----------------------------|\n| M | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| E | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| N | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| M | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| E | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| N | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n| M | yes | yes | yes | yes | yes | yes | yes | yes | yes | yes |\n\nPICC confirmed on 7th Sep 1/10/26",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 27,
+      "source": "patient_notes.pdf",
+      "src_page": 27,
+      "png": "cache/pages/patient_2/patient_notes_p027_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION                RESULT VALUE      UNIT          REFERENCE RANGE CLI",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATION                RESULT VALUE      UNIT          REFERENCE RANGE\n\n                             CLINICAL PATHOLOGY REPORT\n\nURINE ROUTINE\nPhysical Examination\nURINE PH                    5.5\n\nCOLOUR                     PALE YELLOW\n\nAPPEARANCE                 SLIGHTLY TURBID\n\nSPECIFIC GRAVITY           1.015\n\nChemical Examination\nURINE ALBUMIN              PRESENT +\n\nSUGAR                      PRESENT 1.5%\n\nKETONE BODIES              PRESENT +\n\nBILE SALT                  ABSENT\n\nBILE PIGMENT               ABSENT\n\nMicroscopic Examination\nPUS CELLS                 4-5/hpf\n\nEPITHELIAL CELLS          1-2/hpf\n\nPBC'S                     2-3/hpf\n\nNITRITE                   ABSENT\n\nBACTERIA                  ABSENT\n\nImpression:                AMORPHOUS URATES PRESENT.\n\n                           ***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.\n\nINVESTIGATION                RESULT VALUE      UNIT          REFERENCE RANGE\n\n                             BIOCHEMISTRY REPORT\n\nSERUM CREATININE           0.85             mg/dL         0.7 - 1.4\n\nRANDOM BLOOD SUGAR (RBS)   496.00           mg/dl         80 - 140\n\nSERUM ELECTROLYTES\nS.SODIUM                   127.00           mmol/L        135 - 150\n\nS.POTASSIUM(K+)            3.64             mmol/L        3.5 - 5\n\nS.CHLORIDE                 84.90            mmol/L        90 - 108\n\n                           ***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 28,
+      "source": "patient_notes.pdf",
+      "src_page": 28,
+      "png": "cache/pages/patient_2/patient_notes_p028_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION                RESULT VALUE        UNIT          REFERENCE RANGE B",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATION                RESULT VALUE        UNIT          REFERENCE RANGE\n                                                        \n                        BIOCHEMISTRY REPORT\n\nABG(Arterial Blood Gas) WITH LACTATE\npH                         7.39              mm Hg         7.35 - 7.45\npCO2                       32.00             mm Hg\nO2                         72                mmHg\nSodium [Na+]                114               mmol/L       136 - 146\nPotassium [K]               2.65              mmol/L       3.4 - 4.5\nChloride [Cl-]              83                mmol/L       98 - 107\ncCALCIUM                    0.71              mmol/L       1.15 - 1.33\nHCT                        36                %            35 - 50\nHAEMOGLOBIN                 11.60             g/dL         12 - 16\nSO2(C)                      94.20             %\nCHCO3                      19.20              mmol/L       20 - 28\nBE                         -5.80              mmol/L\nLACTATE                     0.80              mmol/L       0.3 - 20\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.\n\nINVESTIGATION                RESULT VALUE        UNIT          REFERENCE RANGE\n\n                        HAEMATOLOGY REPORT\n\nCOMPLETE BLOOD COUNT (CBC)\nHAEMOGLOBIN (HB)             12.0              gm/dl        13.5 - 17.5\nTOTAL COUNT                 6680              Cells/cumm   4000 - 11000\nEUTROPHILS                  79.1              %            35 - 66\nLYMPHOCYTES                 12.1              %            24 - 44\nMONOCYTES                   7.9               %            3 - 6\nEOSINOPHILS                 0.6               %            0 - 6\nBASOPHILS                   0.3               %            0 - 1\nPLATELET COUNT              1.80              Lakhs/cumm   1.5 - 4.5\nRBC COUNT                   4.57              mill/cumm    4.5 - 5.9\nPACKED CELL VOLUME(PCV)     35.9              %            37 - 53\nMCV                         78.6              fl           80 - 100\nMCH                         26.3              pg           25 - 35\nMCHC                        33.4              g/dl         32 - 36\nRDW-CV                      12.2              %            11.5 - 14\nMEAN PLATELET VOLUME(MPV)   10.9              fL           6.5 - 12\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 29,
+      "source": "patient_notes.pdf",
+      "src_page": 29,
+      "png": "cache/pages/patient_2/patient_notes_p029_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "TEST DESCRIPTION                        RESULT          UOM          BIOLOGICAL ",
+        "matched": "TEST DESCRIPTION"
+      },
+      "ocr": {
+        "text": "TEST DESCRIPTION                        RESULT          UOM          BIOLOGICAL REFERENCE RANGE\n\nHAEMATOLOGY\nCOMPLETE BLOOD COUNT\nHaemoglobin (Automated/Blood)          11.4           gm/dL        13.0 - 17.0\n\nTotal WBC Count (Automated/Blood)      7160          Cells/cmm    4000 - 11000\n\nDifferential Count (DC)\nNeutrophils                           78             %            42 - 72\nLymphocytes                          17             %            20 - 50\nEosinophils                          1              %            00 - 06\nMonocytes                           4              %            02 - 10\nBasophil                             00             %            00 - 01\n\nPacked Cell Volume - PCV\n(Automated/Blood)                    32.8           %            35 - 48\n\nRBC Count - (Red Blood Cell)\n(Automated/Blood)                    4.25           Million/cmm  4.0 - 5.5\n\nMean Corpuscular Volume - MCV        77.2           fL           80.0 - 100.0\n\nMean Corpuscular Hemoglobin - MCH    26.8           pg           27.0 - 32.0\n\nMean Corpuscular Hemoglobin\nConcentration - MCHC                 34.8           gm/dL        31.0 - 35.0\n\nPlatelet Count (Automated/Blood)     2.56           Lakhs/cmm   1.40 - 4.50\n\nBIOCHEMISTRY\n\nMean Blood Glucose                   352.2          mg/dL\n\nSEROLOGY\nCRP - (C-Reactive Protein)\n(Immunoturbidimetry/Serum)          88.23          mg/L\n\nWidal Test - Slide Method\nSalmonella typhi \"O\"                Positive 1:160 Dilutions\nSalmonella typhi \"H\"                Positive 1:80 Dilutions\nSalmonella paratyphi \"AH\"           Negative 1: 20 Dilutions\nSalmonella paratyphi \"BH\"           Negative 1: 20 Dilutions\n\nNote:  1. Titres 1:80 and above of \"O\" antigen & 1:80 and above of \"H\" antigen are significant\n       2. Rising titres are significant",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 30,
+      "source": "patient_notes.pdf",
+      "src_page": 30,
+      "png": "cache/pages/patient_2/patient_notes_p030_dpi150_edge2048.png",
+      "doc_type": "imaging",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "USG ABDOMEN & PELVIS (BEDSIDE) ♦ LIVER (17CM) IS ENLARGED IN SIZE AND SHOWS DIFF",
+        "matched": "USG"
+      },
+      "ocr": {
+        "text": "USG ABDOMEN & PELVIS (BEDSIDE)\n\n♦ Liver (17cm) is enlarged in size and shows diffuse grade I fatty infiltration. No focal lesion detected to the extent imaged. No IHBR / EHBR dilatation. CBD is not dilated.\n\n♦ Gall bladder is well distended and has normal wall thickness. Shows a conglomerated calculus measuring 13mm. No evidence of pericholecystic fat stranding at the time of scan.\n\n♦ Spleen (11cm span) is normal in size and echotexture. No focal lesion detected to the extent imaged.\n\n♦ Pancreas - Visualized part of pancreas is normal in size and echotexture.\n\n♦ Both kidneys are mildly bulky in size. Normal in shape, position and echotexture. Corticomedullary differentiation is maintained. No focal mass detected to the extent imaged.\nRight kidney measures: 12.0cm. No dilatation of pelvicalyceal system in the present study. No calculi seen to the extent imaged.\nLeft kidney measures: 12.3cm. No dilatation of pelvicalyceal system in the present study. No calculi seen to the extent imaged.\n\n♦ HRUSG reveals, no significant mass formation / collection to the extent imaged.\n\n♦ Urinary bladder is empty. Foley's bulb in situ.\n\n♦ Prostate: Suboptimal.\n\n♦ Minimal ascites. Minimal right pleural effusion noted with underlying subsegmental lung consolidation.\n\nIMPRESSION:\n\n¤ Mild hepatomegaly with grade I fatty infiltration.\n¤ Cholelithiasis without cholecystitis.\n¤ Mildly bulky bilateral kidneys. Suggested RFT correlation towards pyelonephritis.\n¤ Minimal ascites.\n¤ Minimal right pleural effusion with underlying subsegmental lung consolidation.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 31,
+      "source": "patient_notes.pdf",
+      "src_page": 31,
+      "png": "cache/pages/patient_2/patient_notes_p031_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION                RESULT VALUE          UNIT          REFERENCE RANGE",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATION                RESULT VALUE          UNIT          REFERENCE RANGE\n\n                             CLINICAL PATHOLOGY REPORT\n\nURINE ROUTINE\nPhysical Examination\n  URINE PH                                5.5\n  COLOUR                                YELLOW\n  APPEARANCE                        TURBID\n  SPECIFIC GRAVITY               1.025\nChemical Examination\n  URINE ALBUMIN                  PRESENT ++\n  SUGAR                                  PRESENT 1.0%\n  KETONE BODIES                PRESENT +++\n  BILE SALT                            PRESENT\n  BILE PIGMENT                    PRESENT\nMicroscopic Examination\n  PUS CELLS                          3-4/hpf\n  EPITHELIAL CELLS              2-3/hpf\n  RBC'S                                  2-3/hpf\n  NITRITE                                ABSENT\n  BACTERIA                            ABSENT\nImpression:    GRANULAR CAST PRESENT\n\n                                ***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 32,
+      "source": "patient_notes.pdf",
+      "src_page": 32,
+      "png": "cache/pages/patient_2/patient_notes_p032_dpi150_edge2048.png",
+      "doc_type": "imaging",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ADULT TRANS-THORACIC ECHO REPORT PATIENT NAME: [REDACTED] REF. DOCTOR: [REDACTED",
+        "matched": "ECHO REPORT"
+      },
+      "ocr": {
+        "text": "ADULT TRANS-THORACIC ECHO REPORT\n\nPATIENT NAME: [redacted]\nREF. DOCTOR: [redacted]\n\nFINDINGS\n\nATRIA\nLEFT ATRIUM : Normal\nRIGHT ATRIUM : Normal\n\nATRIOVENTRICULAR VALVES\nMITRAL VALVE : Normal\nTRICUSPID VALVE : Normal\n\nVENTRICLES\nLEFT VENTRICLE : Normal\nRIGHT VENTRICLE : Normal\n\nSEPTAE\nINTERATRIAL SEPTUM : Intact\nINTERVENTRICULAR SEPTUM : Intact\n\nSEMILUNAR VALVES\nAORTIC VALVE : Normal\nPULMONARY VALVE : Normal",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 33,
+      "source": "patient_notes.pdf",
+      "src_page": 33,
+      "png": "cache/pages/patient_2/patient_notes_p033_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "body",
+        "title": "PDA PERICARDIUM THROMBUS / VEGETATION",
+        "scores": {
+          "imaging": 5,
+          "labs": 7
+        }
+      },
+      "ocr": {
+        "text": "PDA\nPERICARDIUM\nTHROMBUS / VEGETATION\n\nNo\nNo Pericardial Effusion\nNil\n\nDOPPLER\n\nVALVES                PEAK VELOCITY               PEAK GRADIENT               REMARKS\nMITRAL                E&A-FUSED\nTRICUSPID             0.6 m/sec                   TR Gradient - 28mmHg         MR-Trivial\nAORTIC                1.4 m/sec                   7 mmHg                      TR-Mild\nPULMONARY             0.8 m/sec                   2 mmHg                      AR-Trivial\n\nM MODE\n\nAO : 22mm             LVIDd : 38mm                IVSd : 10mm                 EDV : ml\nLA : 28mm             LVIDs : 25mm                PWd : 10mm                  ESV : ml\n                      LVEF : 60%                  FS : 30%                    TAPSE: 18mm\n\nOTHER:                Sinus Tachycardia (HR-149 bpm)\n                      IVC-12/6 mm, Normal Collapsing\n\nWALL MOTION ABNORMALITIES: NO DEFINITE RWMA\n\nFINAL DIAGNOSIS:\n* NO DEFINITE RWMA\n* NORMAL LV SYSTOLIC FUNCTION\n* LVEF-60%\n* AR/MR-TRIVIAL\n* TR-MILD\n* NO CLOT / VEGETATION\n\n\nINVESTIGATION          RESULT VALUE               UNIT                       REFERENCE RANGE\nBIOCHEMISTRY REPORT\nSERUM CREATININE       1.07                       mg/dL                      0.7 - 1.4\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 34,
+      "source": "patient_notes.pdf",
+      "src_page": 34,
+      "png": "cache/pages/patient_2/patient_notes_p034_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION                RESULT VALUE          UNIT               REFERENCE ",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATION                RESULT VALUE          UNIT               REFERENCE RANGE\n\n                                      HAEMATOLOGY REPORT\n\nCOMPLETE BLOOD COUNT (CBC)\nHAEMOGLOBIN (HB)              10.4                 gm/dl              13.5 - 17.5\nTOTAL COUNT                  7820                 Cells/cumm         4000 - 11000\nNEUTROPHILS                  72.6                 %                  35 - 65\nLYMPHOCYTES                  13.0                 %                  24 - 44\nMONOCYTES                   10.9                  %                  3 - 6\nEOSINOPHILS                  3.1                  %                  0 - 6\nBASOPHILS                   0.4                   %                  0 - 1\nPLATELET COUNT               1.26                  Lakhs/cumm         1.5 - 4.5\nRBC COUNT                   4.01                   mill/cumm          4.5 - 5.9\nPACKED CELL VOLUME (PCV)    32.1                   %                  37 - 53\nMCV                         80.0                   fl                  80 - 100\nMCH                         25.9                   pg                  25 - 35\nMCHC                        32.4                   g/dl                 32 - 36\nRDW-CV                      12.9                   %                   11.5 - 14\nMEAN PLATELET VOLUME (MPV)  10.6                   fl                   6.5 - 12\n\nImpression: MANUAL PLATELET COUNT DONE.\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 35,
+      "source": "patient_notes.pdf",
+      "src_page": 35,
+      "png": "cache/pages/patient_2/patient_notes_p035_dpi150_edge2048.png",
+      "doc_type": "other",
+      "doc_type_detail": {
+        "method": "none",
+        "title": "SUPER SPECIALITY HOSPITAL 200705-172209-PU MI 1.2",
+        "scores": {}
+      },
+      "ocr": {
+        "text": "SUPER SPECIALITY HOSPITAL\n200705-172209-PU\nMI 1.2\nTis 0.3\n25dc\nPERSIST\n\n1.05 cm\n1.45 cm\n2.64 cm\n2.90 cm\n1.98 cm\n1.70 cm\nT(ch) 63.05 ms\nT(ch) 24.32 ms\nZch) 61.30 ms\nZ(ch) 38.34 ms\n32.87 ms\n10.31 cm\n0.00 cm\n0.00 cm\n0.00 cm\n0.00 cm\n0.00 cm\n0.00 cm\n0.00 cm\n\nMark the anterior wall of septum in end diastole\n\nSUPER SPECIALITY HOSPITAL\n200705-172209-PU\nMI 1.2\nTis 0.3\n25dc\nPERSIST\n\nCardiolo\nlogist",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 36,
+      "source": "patient_notes.pdf",
+      "src_page": 36,
+      "png": "cache/pages/patient_2/patient_notes_p036_dpi150_edge2048.png",
+      "doc_type": "imaging",
+      "doc_type_detail": {
+        "method": "body",
+        "title": "ARTERIES : NORMAL AORTIC ARCH DING AORTA : NORMAL PULMONARY ARTERY : NORMAL",
+        "scores": {
+          "imaging": 5
+        }
+      },
+      "ocr": {
+        "text": "ARTERIES\n: Normal AORTIC ARCH\nDING AORTA : Normal PULMONARY ARTERY : Normal\n: No\nCARDIUM : No Pericardial Effusion\nOMBUS / VEGETATION : Nil\nPPLER\nLVES PEAK VELOCITY PEAK GRADIENT REMARKS\nTRAL E&A-FUSED - MR-Trivial\nRICUSPID 0.6 m/sec TR Gradient - 28mmHg TR- Mild\nORTIC 1.4m/sec 7 mmHg AR-Trivial\nULMONARY 0.8 m/sec 2 mmHg\nA MODE\nAO : 22mm LVIDd : 38mm IVSd : 10mm EDV : ml\nLA : 28mm LVIDs : 25mm PWd : 10mm ESV : ml\nLVEF : 60% FS : 30% TAPSE: 18mm\nOTHER : Sinus Tachycardia {HR-149 bpm}\nIVC-12/6 mm, Normal Collapsing\nWALLMOTION ABNORMALITIES : NO DEFINITE RWMA\nFINAL DIAGNOSIS :\n* NO DEFINITE RWMA\n* NORMAL LV SYSTOLIC FUNCTION\n* LVEF-60%\n* AR/MR-TRIVIAL\n* TR-MILD\n* NO CLOT / VEGETATION\nDONE BY : Sourav Krishna J (Bsc.CCT)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 37,
+      "source": "patient_notes.pdf",
+      "src_page": 37,
+      "png": "cache/pages/patient_2/patient_notes_p037_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ICU-CHART [SEVERAL FIELDS AT THE TOP LEFT ARE REDACTED] ADMISSION DATE: 26/10/20",
+        "matched": "ICU-CHART"
+      },
+      "ocr": {
+        "text": "ICU-CHART\n\n[Several fields at the top left are redacted]\n\nAdmission Date: 26/10/2023\nWeight (kg): [redacted]\nTime: 8.00 pm\nPOD: [redacted]\nBlood Group: [redacted]\nAllergies: No Allergies\nHbmc: [redacted]\nICU No: [redacted]\nEF: [redacted]\nMC: [redacted]\nCulture Report: [redacted]\nRADIO: URINE, ET\n\nMedications:\n1. INJ NEPONEX 1g IV 8.00 f\n2. INJ PAINODAC 40mg IV 8.00 f\n3. INJ EMSET 4mg IV 10.00 f\n4. INJ SUMO 1g IV 2.00 f\n5. INJ HAPPY NERVE Plus 1 amp IV 2.00 A\n6. INJ LANTUS 100 s/c 8.00 f\n7. INJ H. ACTRAPID 45 s/c 8.00 A\n8. T DOLO 650 PO 11.00 f\n\n[Handwritten notes next to medications, mostly illegible]\n\nVital Signs Chart (Sys/Dia):\n- Blood pressure readings plotted on a graph with values ranging from 40 to 220 systolic and 20 to 120 diastolic.\n\n[Several columns and rows with time and measurements, mostly illegible]\n\nInvestigations:\n- Hb: 10.2\n- TLC: 12.0\n- Platelets: 2.5\n- Other lab values with some handwritten notes and numbers.\n\nFASTHUGSABID\n\nICU Care Plan:\n- D.S. & Observation\n- Aseptic\n- Follow c/o oxygen\n- CRAB monitoring & Custody\n- Rx monitoring\n- Calorie q 6 hrs\n- Other meds by ICU Chart\n- Inj Pain 5/7\n- ? Stop & wound care\n\nReferral Advice: [blank]\n\nPatient Briefing Note:\n- Family updated\n\n[Several tables at the bottom left for procedures, investigations, and daily charting, mostly blank or illegible]\n\n[Handwritten note at bottom left:]\n- Today shift\n- RST/RT @ 8.00 AM\n\n[Some illegible handwritten notes and signatures]",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 38,
+      "source": "patient_notes.pdf",
+      "src_page": 38,
+      "png": "cache/pages/patient_2/patient_notes_p038_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ICU-CHART DATE: 24.02.24 WEIGHT: [BLANK]",
+        "matched": "ICU-CHART"
+      },
+      "ocr": {
+        "text": "ICU-CHART\n\nDate: 24.02.24\nWeight: [blank]\nPOD: [blank]\nBlood Group: [blank]\nAllergies: No Known - H/O D/C\n\nINV. PHANTOMICS\n40% IV 1 unit A\nINV. EMERET\n4% IV 1 unit C\nINV. ZOLAMAX 5%\n3% IV 1 unit B\nINV. SUPRIL\n1.5% IV 1 unit B\nINV. THAPPY NERVE BLOCK\n1% IV 1 unit C\nINV. PELIS\n10% IV 1 unit A\nINV. INSULIN\n10% IV 1 unit B\nINV. MC ROMAC\n1% IV 1 unit A\nINV. M. DEXAMASONE\n4% 55 IV 1 unit B\n\n[Table with various times and doses, mostly illegible]\n\nDiagnosis: TAFE\nUncontrollable T. pm\n\n[Graph with various vital signs and measurements]\n\nFASTHUG A R D\n\nICU Care Plan:\n- S.B. & Observation\n- Blood Clot\n- CRP, Morning & Cold\n- I.F. Manly\n- Analgesic\n- 2 Sept to Ward - Dry Dressing\n- Blood / Urine C/S\n\nReferral Advice:\n\nPatient Briefing Notes:\n- Family Updated",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 39,
+      "source": "patient_notes.pdf",
+      "src_page": 39,
+      "png": "cache/pages/patient_2/patient_notes_p039_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "ICU-CHART DATE: 26.02.2024 BLOOD GROUP:",
+        "matched": "ICU-CHART"
+      },
+      "ocr": {
+        "text": "ICU-CHART\n\nDate: 26.02.2024\nBlood Group:\nAllergies: - Not Known - Htuc:\n\nINJ PANTODAC\n4.30 pm IV Inj 1 cc [... repeated content omitted (OCR repetition loop) ...]  Inj",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": "repetition_collapsed",
+        "raw_chars": 73729
+      }
+    },
+    {
+      "global_page": 40,
+      "source": "patient_notes.pdf",
+      "src_page": 40,
+      "png": "cache/pages/patient_2/patient_notes_p040_dpi150_edge2048.png",
+      "doc_type": "labs",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INVESTIGATION                RESULT VALUE          UNIT               REFERENCE ",
+        "matched": "INVESTIGATION"
+      },
+      "ocr": {
+        "text": "INVESTIGATION                RESULT VALUE          UNIT               REFERENCE RANGE\nBIOCHEMISTRY REPORT\nSERUM CREATININE            1.04                 mg/dL              0.7 - 1.4\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.\n\nINVESTIGATION                RESULT VALUE          UNIT               REFERENCE RANGE\nHAEMATOLOGY REPORT\nCOMPLETE BLOOD COUNT (CBC)\nHAEMOGLOBIN (HB)             10.7                 gm/dl              13.5 - 17.5\nTOTAL COUNT                 11560                 Cells/cumm         4000 - 11000\nNEUTROPHILS                 83.9                  %                  35 - 66\nLYMPHOCYTES                 9.2                   %                  24 - 44\nMONOCYTES                  6.4                    %                  3 - 6\nEOSINOPHILS                 0.3                   %                  0 - 6\nBASOPHILS                   0.2                   %                  0 - 1\nPLATELET COUNT              1.60                  Lakhs/cumm         1.5 - 4.5\nRBC COUNT                   4.13                  mill/cumm          4.5 - 5.9\nPACKED CELL VOLUME(PCV)     32.4                  %                  37 - 53\nMCV                         78.5                  fl                 80 - 100\nMCH                         25.9                  pg                 25 - 35\nMCHC                        33.0                  g/dl               32 - 36\nRDW-CV                      13.2                  %                  11.5 - 14\nMEAN PLATELET VOLUME(MPV)   10.6                  fL                 6.5 - 12\n\n***End of Report***\n\nPlease correlate laboratory results clinically. Contact laboratory for any clarification. All results are sample specific.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 41,
+      "source": "patient_notes.pdf",
+      "src_page": 41,
+      "png": "cache/pages/patient_2/patient_notes_p041_dpi150_edge2048.png",
+      "doc_type": "imaging",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CLINICAL DATA: UNCONTROLLED T2 DM C. T. KUB (PLAIN) PROTOCOL:",
+        "matched": "KUB (PLAIN)"
+      },
+      "ocr": {
+        "text": "Clinical data: Uncontrolled T2 DM\n\nC. T. KUB (PLAIN)\n\nProtocol:\nPlain axial CT scan of the KUB region.\nReformatted coronal and sagittal MPR images.\n\nThe Study Reveals\n\n• Kidneys:\n  o Bilateral perinephric fat plane stranding noted.\n  o Both kidneys are mildly bulky in size\n    ▪ Right kidney measures ~ 12.3 x 6.4 x 6.5 cm. No evidence of hydroureteronephrosis. No calculus seen.\n    ▪ Left kidney measures ~ 12.0 x 6.0 x 6.1 cm. No evidence of hydroureteronephrosis. Tiny 1-2 mm calculus noted in the lower pole (496 HU)\n  o Mild bilateral anterior pararenal (Gerota's), posterior pararenal (Zuckerkandl's) and lateral conal fascial thickening noted.\n  o No demonstrable calculus in the region of ureters on either side.\n• Urinary bladder is partially distended. Foley's bulb noted in situ.\n• The visualized portions of the spleen appears normal.\n• Liver is enlarged in size (20.0 cm).\n• Conglomerated calculus noted in the neck of gall bladder, measuring ~ 1.4 cm.\n• Survey of pancreas the of the covered bowel loops grossly appears unremarkable.\n• Minimal ascites noted.\n• Bilateral mild pleural effusion with underlying subsegmental lung consolidation noted.\n\nIMPRESSION\n\n☒ Both kidneys are mildly bulky in size with perinephric fat plane stranding and Mild bilateral anterior pararenal (Gerota's), posterior pararenal (Zuckerkandl's) and lateral conal fascial thickening\n\n→ Features likely suggestive of acute pyelonephritis. Suggested contrast study for further evaluation.\n\n☒ Tiny left renal calyceal calculus.\n☒ Hepatomegaly\n☒ Cholelithiasis without cholecystitis.\n☒ Minimal ascites.\n☒ Bilateral mild pleural effusion with underlying subsegmental lung consolidation.\n\nSAMPLE: URINE FOR CULTURE AND SENSITIVITY\n\nREPORT: NO SIGNIFICANT BACTERIURIA.\n\nColony count: Less Than 10,000 CFU/ML\n\n—End of Report—",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 42,
+      "source": "patient_notes.pdf",
+      "src_page": 42,
+      "png": "cache/pages/patient_2/patient_notes_p042_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DRUG CHART (1) DRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR ALLERGIES (IF AN",
+        "matched": "DRUG CHART"
+      },
+      "ocr": {
+        "text": "DRUG CHART (1)\nDRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR\n\nAllergies (if any)  not known\nDiagnosis:  T2DM, AFI\nWeight:  71 Kg\nRegular Prescription  D2  D3  D4  D5  D6  D7\nDrug  INJ MEROMAC  28/2/26  1/3/26  2/3/26  9AM  6AM  6AM\nDose  1 gm\nRoute  IV\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature\n\nDrug  INJ PAN  28/2/26  1/3/26  2/3/26  9/3/26  6AM  6AM  6AM\nDose  40 mg\nRoute  IV\nFreq  1-0-0\nDate  28/2/26\nDoctor's signature\n\nDrug  INJ EMESET  28/2/26  1/3/26  2/3/26  9/3/26  2pm  6AM  6AM\nDose  4 mg\nRoute  IV\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 43,
+      "source": "patient_notes.pdf",
+      "src_page": 43,
+      "png": "cache/pages/patient_2/patient_notes_p043_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DRUG CHART (1) DRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR ALLERGIES (IF AN",
+        "matched": "DRUG CHART"
+      },
+      "ocr": {
+        "text": "DRUG CHART (1)\nDRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR\n\nAllergies (if any)  Not found\nDiagnosis:  DKLA T2DM.\nWeight:  71 kg\n\nRegular Prescription\nD1  D2  D3  D4  D5  D6  D7\n\nDrug\nINJ Sumol\n28/12/26  1/3/26  2/3/26\num  3*30 am  2 am\n\nDose\n19 m\n\nRoute\nIV\n\nFreq\nSOS\n\nDate\n28/12/26\n\nDoctor's signature\n\nDrug\nINJ HAPPY NERVE PLUS.\n28/12/26  1/3/26\n6 AM  SD  PM\n\nDose\n1 amp\n\nRoute\nIV\n\nFreq\nO T D\n\nDate\n28/12/26\n\nDoctor's signature\n\nDrug\nINJ H. ACTRAPID.\n28/12/26  1/3/26  2/3/16\n6 PM  9:30 am  10 AM\n10 uip  1 refu\n\nDose\n5/5\n\nRoute\nS/C\n\nFreq\n1-1-1\n\nDate\n28/12/26\n\nDoctor's signature",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 44,
+      "source": "patient_notes.pdf",
+      "src_page": 44,
+      "png": "cache/pages/patient_2/patient_notes_p044_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DRUG CHART (1) DRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR ALLERGIES (IF AN",
+        "matched": "DRUG CHART"
+      },
+      "ocr": {
+        "text": "DRUG CHART (1)\nDRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR\n\nAllergies (if any)  Not Known\nDiagnosis:  DKA, AEI\nWeight:  71 (kg)\n\nRegular Prescription\nDrug\nINS\nLANTUS\nDose  10 U\nRoute  SLC\nFreq  OD.\nDate  28/2/26\nDoctor's signature\n\nDrug\nTAB\nDOLO\nDose  650 mg\nRoute  PLO\nFreq  1-1-1\nDate  28/2/26\nDoctor's signature\n\nDrug\nBDO\nSEP\nGel\nDose  L/A\nRoute  L/A\nFreq  1-4-1\nDate  30/1/26\nDoctor's signature\n\nD1  25/2/26  1/3/26  2/3/26\n1 pm  2 pm  2 pm\n\n28/2/26  1/3/26  2/3/26\n9 pm  10 am  10 am\nSPEED  [illegible]\n\n1/3/26  2/6/26\n2 pm  9 am\n[illegible]  [illegible]\n\n10 pm  2 pm\n[illegible]  [illegible]",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 45,
+      "source": "patient_notes.pdf",
+      "src_page": 45,
+      "png": "cache/pages/patient_2/patient_notes_p045_dpi150_edge2048.png",
+      "doc_type": "medication",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "DRUG CHART (2) DRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR WEIGHT: 71 KG",
+        "matched": "DRUG CHART"
+      },
+      "ocr": {
+        "text": "DRUG CHART (2)\nDRUGS IN ONLY CAPITAL LETTERS & SIGNED BY DOCTOR\n\nWeight: 71 Kg\nNEBULISATION\n\nDrug & Dosage\n\nDate    Doctor's signature\n\nDrug & Dosage\n\nDate    Doctor's signature\n\nDrug & Dosage\n\nDate    Doctor's signature\n\nONCE ONLY AND PREMEDICATION DRUGS:\n\nDate Time    Drug (Approved Name)    Dose    Route    Min | Hr    Dr.'s Sign.    Given by\n\nINTRAVENOUS FLUIDS AND CONTINUOUS INFUSIONS:\n\nDate Time    IV Fluid Type    Ml/Hr    Stop order\n\n20/12/26 0 1 PM    NS 1 RL @ 150 ml/hr\norally soft diet",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 46,
+      "source": "patient_notes.pdf",
+      "src_page": 46,
+      "png": "cache/pages/patient_2/patient_notes_p046_dpi150_edge2048.png",
+      "doc_type": "admission",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CASE RECORD / ADMISSION RECORD (1) INFORMANTS:                                  ",
+        "matched": "ADMISSION RECORD"
+      },
+      "ocr": {
+        "text": "CASE RECORD\n/ ADMISSION RECORD (1)\n\nInformants:                                                                                      Referred by: Dr.\n\nChief Complaints: \nc/o Fever\nGeneralized weakness Since 3 days\nMyalgia. +\n\nHistory of Present Illness: \nPatient on his regular medication\nGradually c/o Fever, Myalgia, Generalized weakness\nfor further Rx came to our hospital\n\nPast History / Drug History: \nK/c/o T2DM (on Ayurvedic medication)\nHbA1c - 13.9% (outside report)\n\nAllergic History: \nNot Known",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 47,
+      "source": "patient_notes.pdf",
+      "src_page": 47,
+      "png": "cache/pages/patient_2/patient_notes_p047_dpi150_edge2048.png",
+      "doc_type": "admission",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CASE RECORD / ADMISSION RECORD (2) EXAMINATION: OLT CONSCIOUS, ORIENTED",
+        "matched": "ADMISSION RECORD"
+      },
+      "ocr": {
+        "text": "CASE RECORD\n/ ADMISSION RECORD (2)\n\nExamination: olt Conscious, oriented\n\nGeneral Physical:\nWell Built\n\nPR: 116 b/m  BP: 87/50 mm Hg  RR: 26 b /m  SPO2: 99%  %\nWt: kg  GRBS: 443- mg/dL  Temp: 98.3 °F\n\nPallor ☐  Icterus ☐  clubbing ☐  kolinychia ☐  Lymphadenopathy ☐  Edema ☐\n\nSystemic examination:\nCNS: 1) GCS: M6/V5/E4  6 / 5 / 4  ____/15\n2) Pupils: bluemore  3) Tone:\n4) Plantar  5) Power:\n6) Meningeal Signs  7) DTR:\n8) Involuntary movements:\n\nCVS: S1 ☑  S2 ☑  Murmurs ☐  Grade I II III IV  Gallop ☐\n\nRS: Efforts: Normal ☑  Poor ☐  Increased ☐  Acidotic ☐\nRetractions: Subcostal ☐  Intercostal ☑  Sublotic ☐\nAir entry: B/L Equal ☐  Decreased Air entry: Left ☐  Right ☐\nChest sounds: Ronchi ☐  Crepts ☑  Stridor ☐\n\nPA: Soft ☑  Distention ☐  BS ☐  Liver span ______ cms, Spleen span ______ cms, AG ______ cms",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 48,
+      "source": "patient_notes.pdf",
+      "src_page": 48,
+      "png": "cache/pages/patient_2/patient_notes_p048_dpi150_edge2048.png",
+      "doc_type": "admission",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CASE RECORD / ADMISSION RECORD (3) EXAMINATIONS:",
+        "matched": "ADMISSION RECORD"
+      },
+      "ocr": {
+        "text": "CASE RECORD\n/ ADMISSION RECORD (3)\n\nExaminations:\n\nInvestigations:\nCBC, Sr Creatinine & Electrolytes\nABG, Urinalysis\n\nDiagnosis (Provisional): \n? ARD\nUncontrolled T2DM\n\nFinal Diagnosis:\n\n- ? synovitis\n- cholelithiasis with choledocholithiasis\n\nResident Dc\n\nName Dr\n\nConsultant Signature",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 49,
+      "source": "patient_notes.pdf",
+      "src_page": 49,
+      "png": "cache/pages/patient_2/patient_notes_p049_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES  NOT KNOWN DATE:  27/2/26",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies  not known\n\nDate:  27/2/26\n11:30 Am\n\ncase details received\ncase of uncontrolled T2 DM.\nAKI\nuc: fair\n\nO/E\nBP - 110/70 mm Hg\nPR - 117 bpm\nSPO2 - 94%\nPA - soft\n\nCNS - conscious, oriented\nCVS - S1 S2 +\nRS - BLAE +\n\nAdvice - use abd & pelvis - stat\nERBS 2nd hourly\n- CBC\n- S. Ureat\n- Urine routine\n- S. NAT\n@ 3 pm\n\nShift to ward by evening",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 50,
+      "source": "patient_notes.pdf",
+      "src_page": 50,
+      "png": "cache/pages/patient_2/patient_notes_p050_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES  NOT KNOWN DATE:  07/02/26",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies  not known\n\nDate:  07/02/26\n\n2D Echo\n\nSinus bradycardia @ HR - 149 bpm\nNormal LV systolic function\nNo moderate PRUMA\nLVEF - 60%\nAR - trivial, no AR\nMR - trivial\nTR - mild\nNo PAH (RVSP - 28 mmHg)\nIVC 12/6 mm normal collapsing\nNo clot/pericardial effusion\n\nDr Bisoun",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 51,
+      "source": "patient_notes.pdf",
+      "src_page": 51,
+      "png": "cache/pages/patient_2/patient_notes_p051_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES - NOT KNOWN",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\n- Not Known\n\nDate:\n29/10/26\n06:00 pm\n\nCS/IB Dr-\n\nCase details reviewed\npc. status quo\n\nUse 810 pyelonephritis\nBP: 96/60 mmHg\nHR: 116 bpm\nSpO2: 99-1- 02\nUS: long hour\nUS: 3153 (?)\nRIS: BLC NRB (?)\nPIA: soft. Diffuse tender\n\nAdv\n- CT KUB\n- urologist opinion\n- CBL, SN event TIM\n- Rx as per chart",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 52,
+      "source": "patient_notes.pdf",
+      "src_page": 52,
+      "png": "cache/pages/patient_2/patient_notes_p052_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES NOT KNOWN",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\nnot known\n\nDate:\n28/2/26\n11:40 AM\n\nclsb D9r.\ncase details reviewed\n4C: fair\n\nO/E\nBP - 110/70 mmHg\nPR - 114 bpm\nSpO2 - 96%\nPA - 50 ft\n\nCNS - conscious, oriented\nCVS - S1 S2 +\nRS - BLAE +\n\nAdv:\n- Urologist opinion\n- CBC\n- S. ureat [Tlm]\n- Shift to ward\n- Rx as per chart",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 53,
+      "source": "patient_notes.pdf",
+      "src_page": 53,
+      "png": "cache/pages/patient_2/patient_notes_p053_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES NOT KNOWN",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\nnot known\n\nDate:\n28/2/2026\n11:45 AM\n\ns/b Dr\n\nThanks for referral\nHistory noted\nReports noted\nCT-KUB (Films) noted\n\nPlan\n-> Reassured\n-> continue same Treatment",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 54,
+      "source": "patient_notes.pdf",
+      "src_page": 54,
+      "png": "cache/pages/patient_2/patient_notes_p054_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES NO",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\nNO\n\nDate\n28/2/26\n5:34 am\n\nc/s/B Dr. S [illegible]\n\nCase reviewed\n\nCase of AFI, DKA\nUncontrolled T2DM\nB/L pyelonephritis\nc/o Dryness of mouth\n- febrile @ 4 pm\n102.2°F\n\nO/E:\nBP - 130/70 mmHg\nHR - 135 bpm\nSpO2 - 91% @ RA\n\nCNS - Conscious, oriented\nCVS - S1, S2 +\nRS - B/L AE +\nP/A - Soft\n\nAdvice:\nCBC\nSr. Creat\nGRBS - 297\nT/M\n\n- F/C remove [illegible]\n- 8th hourly GRBS monitor",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 55,
+      "source": "patient_notes.pdf",
+      "src_page": 55,
+      "png": "cache/pages/patient_2/patient_notes_p055_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES DATE:",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\n\nDate:\n\n1/3/22\n11:30 PM\n\nCle (By Dr)\n\n- Case reviewed\n- pt is stable\n- episode of chills yesterday night\n- no fever spike seen\n- symptomatically better now\n\nBP - 110/70 mmHg\nPR - 80 bpm\nSpO2 - 98% @ RA\n\nAdvt\n\nCST",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 56,
+      "source": "patient_notes.pdf",
+      "src_page": 56,
+      "png": "cache/pages/patient_2/patient_notes_p056_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES NO",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\nno\n\nDate:\n02/03/2026\n\n11:25 AM\n\nc/s/b Dr\n\nCase reviewed\nCase of AFI, DKA\nUncontrolled T2DM\nB/L polynephritis\n\nO/E:\nBP: 170/80 mm Hg\nSPO2: 97%\nHR: 110 b/m\n\nCNS: Conscious oriented\nCVS: S1, S2 +\n\nAdvice:\n-7 Ortho opinion\n-5 Discharge on Request (Evening)\n-> Diet counselling",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 57,
+      "source": "patient_notes.pdf",
+      "src_page": 57,
+      "png": "cache/pages/patient_2/patient_notes_p057_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "CONSULTATION SHEET KNOWN DRUG ALLERGIES DATE:",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "CONSULTATION SHEET\n\nKnown Drug Allergies\n\nDate:\n\n2/3/26\n11:56 AM\n\nc/s/b Dr. [illegible]\n\n- Thanks for reference\n- History Noted\n- c/o pain (Rt) hip region\n\nW/E\n\n- Tenderness (Rt)\nRange of movement painful & restricted\nH/o (Rt) tibia operated 3 yrs back\n\nAdv:\n\n-> X-ray pelvis - B/L hips - AP view\nxyrs/o. # united well\n\nRx ? synovitis\n\nT: Ultracet 1-0-1 x 5 day\n\nContinue medication [illegible] T. Etoshine 90 mg 1-0-0",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 58,
+      "source": "patient_notes.pdf",
+      "src_page": 58,
+      "png": "cache/pages/patient_2/patient_notes_p058_dpi150_edge2048.png",
+      "doc_type": "consultation",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "SARJI SUPER SPECIALITY HOSPITAL CONSULTATION SHEET",
+        "matched": "CONSULTATION"
+      },
+      "ocr": {
+        "text": "sarji\nSUPER SPECIALITY HOSPITAL\n\nCONSULTATION SHEET\n\nKnown Drug Allergies\nno\n\nDate:\n2/3/22\n1 pm\n\nCGB Dietician\nThanks for reference\nCase reviewed\nclo - AFI / DKA\nBL pyelonephritis\nUncontrolled 7.20M on PM\n\nDiet counselling done & diet chart issued\n\nAdv\n- Strict diet modification\n- Allow low oil foods\n- Include fiber rich foods",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 59,
+      "source": "patient_notes.pdf",
+      "src_page": 59,
+      "png": "cache/pages/patient_2/patient_notes_p059_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "MONITORING CHART TIME | TMPR °F | HR PER MIN | RR B/MIN | SPO2 % | BP MM/HG | GR",
+        "matched": "MONITORING CHART"
+      },
+      "ocr": {
+        "text": "MONITORING CHART\n\nTIME | Tmpr °F | HR per min | RR b/min | SPO2 % | BP mm/Hg | GRBS mg/dl | O2 min/ltr | Staff Name & ID\n---|---|---|---|---|---|---|---|---\n28/12/20 | | | | | | | |\n4 pm | 102.2°F | 135 b/m | 20 b/m | 87% | 130/70 only | Room air | \n7 pm | 98.6°F | 120 b/m | 21 b/m | 86% | 130/80 mm/Hg | Room air | \n9 pm | 98.1 W | 106 b/m | 20 b/m | 90% | 120/80 mm | Reg | \n11 pm | 102.2°F | 120 b/m | 21 b/m | 89.1% | 130/80 mm | Reg | \n| | | 13 | 26 | | | | \n12 AM & 6 AM | 110 b/m | 20 b/m | 89% | 120/80 only | Reg | \n2 AM & 12 | 112 b/m | 21 b/m | 90% | 110/70 mm/Hg | Reg | \n7 AM & 6 | 110 b/m | 20 b/m | 89% | 120/80 mm Hg | Reg | \n9 m | 97.2 F | 100 b/m | 20 b/m | 93% | 110/70 only | Room air | \n12 m | 97.4 F | 98 b/m | 20 b/m | 95% | 100/60 only | Room air | \n2 m | 97.2 F | 100 b/m | 20 b/m | 96% | 110/70 only | Room air | \n4 pm | 98.2 F | 100 b/m | 20 b/m | 97% | 120/80 mm Hg | Room air | \n6:43 pm | 99.1 F | 110 b/m | 22 b/m | 98% | 130/60 only | Room air | \n9 pm | 98.6 F | 110 b/m | 21 b/m | 96% | 130/80 mm/Hg | Regim | \n| | | | 2/3/26 | | | | \n12 pm | 98.6 F | 117 b/m | 20 b/m | 94% | 120/80 mm/Hg | Room air | \n2 am | 109 F | 100 b/m | 21 b/m | 98% | 110/80 mm/Hg | Room air | \n7 am | 98.6 F | 100 b/m | 20 b/m | 98% | 120/80 mm Hg | Regim | Room air\n10 am | 97.6 F | 100 b/m | 20 b/m | 94% | 110/80 mm Hg | Room air | \n12 pm | 98.2 F | 103 b/m | 20 b/m | 96% | 120/60 mm Hg | Room air | \n2 pm | 97.2 F | 100 b/m | 20 b/m | 97% | 110/70 only | Room air |",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 60,
+      "source": "patient_notes.pdf",
+      "src_page": 60,
+      "png": "cache/pages/patient_2/patient_notes_p060_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "GRAPHIC (TPR) CHART DATE 28/2/26  1/3/26  2/3/26",
+        "matched": "GRAPHIC (TPR)"
+      },
+      "ocr": {
+        "text": "GRAPHIC (TPR) CHART\n\nDATE\n28/2/26  1/3/26  2/3/26\n\nNO. OF DAYS\nD1  D2  D3\n\nDAYS POST OP\n\nTIME\n4 6 10 7 6 2 6 6 9 6 10\n\nPULSE\n210\n200\n190\n180\n170\n160\n150\n140\n130\n120\n110\n100\n90\n60\n80\n50\n70\n40\n60\n50\n40\n30\n20\n10\n\nTEMP °C\n40\n39\n38\n37\n36\n35\n\nTEMP °F\n105.8\n104\n102.2\n100.4\n98.6\n96.8\n95\n\nRESP\n\nTemp (written in blue with arrow pointing to graph)\nHR (written in red with arrow pointing to graph)\nPR (written in blue with arrow pointing to graph)\n\nDATE\n28/2/26  1/3/26  2/3/26\n\nURINE\np/c  self ru  self ru\n\nBATH\ncircum  given  given\n\nWEIGHT\n-  7 kg\n\nDIET\n@  2/3  n\n\nSIGNATURE\n[illegible]",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 61,
+      "source": "patient_notes.pdf",
+      "src_page": 61,
+      "png": "cache/pages/patient_2/patient_notes_p061_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INTAKE/OUTPUT CHART TIME | INTAKE | OUTPUT ---|---|---",
+        "matched": "INTAKE/OUTPUT"
+      },
+      "ocr": {
+        "text": "INTAKE/OUTPUT CHART\n\nTIME | INTAKE | OUTPUT\n---|---|---\n| Parenteral | Quantity | Oral/RT | Quantity | Urine | Drainage | Vomitus / Bowels | Ryle's Tube Aspiration\n28/12 | | | | | | | |\n4 pm | 0.9% NS | 150 ml | H2O | 100 ml | 100 ml | | |\n5 pm | | 150 ml | | | 100 ml | | |\n6 pm | | 150 ml | | | 70 ml | | |\n7 pm | | 150 ml | | | 100 ml | | |\n8 pm | | 150 ml | | | 70 ml | | |\n9 pm | | 150 ml | | | 80 ml | | |\n10 pm | | — | 2 tbsp food | 200 ml | 100 ml | | |\n11:30 pm | | | | 90 ml | | | |\n12 am | | | | 80 ml | | | |\n1 am | | | | 90 ml | | | |\n2 am | | | 2 tbsp | 200 ml | 100 ml | | |\n3 am | | | | 90 ml | | | |\n4 am | | | | 80 ml | | | |\n5 am | | | | 90 ml | | | |\n6 am | | | 2 tbsp | 100 ml | 80 ml | | |\n7 am | | | | | F/C removed | | |\n8 am | | | | | | | |\n\n| | | | | | | |\n| | | | | | | |\n\nIntake - 1350 ml  \nOutput - 1325 ml\n\n(ally)",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 62,
+      "source": "patient_notes.pdf",
+      "src_page": 62,
+      "png": "cache/pages/patient_2/patient_notes_p062_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INTAKE/OUTPUT CHART TIME | INTAKE | OUTPUT PARENTERAL | QUANTITY | ORAL/RT | QUA",
+        "matched": "INTAKE/OUTPUT"
+      },
+      "ocr": {
+        "text": "INTAKE/OUTPUT CHART\n\nTIME | INTAKE | OUTPUT\nParenteral | Quantity | Oral/RT | Quantity | Drainage | Vomitus / Bowels | Ryle's Tube Aspiration\n\n11/3/26 9am | | | Hero 200ml | Self void 150ml | | |\n10am | | | | | | |\n11am | | | | | | |\n12pm | | | | 300ml | | |\n1pm | | | Hero 100ml | | | |\n2pm | | | | | | |\n3pm | | | H2O 150ml | 200ml | | |\n4pm | | | | | | |\n5pm | | | | | | |\n6pm | Inj 100ml | H2O 50ml | 200ml | | | |\n7pm | | | | | | |\n8pm | | | | | | |\n9pm | | | | | | |\n10pm | | | | | | |\n11pm 11/3/26 | | | Hero 100ml | | oral intake - 750 ml | |\n12am | | | | 200ml | output - 1250 ml | |\n1am | | | | | | |\n2am | | | | | (illegible) | |\n3am | | | | | | |\n4am | | | H2O 50ml | | | |\n5am | | | | | | |\n6am | | | | 200ml | | |\n7am | | | | | | |\n8am | | | | | | |",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 63,
+      "source": "patient_notes.pdf",
+      "src_page": 63,
+      "png": "cache/pages/patient_2/patient_notes_p063_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "INTAKE/OUTPUT CHART TIME          INTAKE                                  OUTPUT",
+        "matched": "INTAKE/OUTPUT"
+      },
+      "ocr": {
+        "text": "INTAKE/OUTPUT CHART\n\nTIME          INTAKE                                  OUTPUT\n9/3/26\n\nParenteral   Qunatity   Oral/RT   Quantity   Urine   Drainage   Vomitus / Bowels   Ryle's Tube Aspiration\n\n9 am                             H2O          150 ml                Returned\n10 am                                                                 200 ml\n11 am\n12 pm                           H2O          50 ml\n1 pm                                                                 250 ml\n2 pm                            H2O          200 ml\n3 pm",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 64,
+      "source": "patient_notes.pdf",
+      "src_page": 64,
+      "png": "cache/pages/patient_2/patient_notes_p064_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM.......8 PM.......TO.....8 PM......) DATE: 26/8/26. 8",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From.......8 pm.......to.....8 pm......) Date: 26/8/26.\n\n8 pm Patient received from casualty to HDU\n-> Patient Vital Signs connected.\n-> Patient hand over taken from casualty staff to HDU staff.\n8:30 pm -> Patient Side Rounds done\n-> Patient conscious and oriented.\n-> Patient IV cannula present.\n-> Patient orally def diet present.\n-> Patient self valid present.\n-> Patient IVF NS RL @ 150 ml/hr\n   if GRBS is less than 200 mg/dl\n   DNS 150 ml/hr.\n-> Patient hourly GRBS present.\n-> Patient vital signs monitored\n   Temp: - 98°F\n   BP: - 100/60 mm Hg\n   PR: - 99 bt/min\n   RR: - 26 bts/min\n   SpO2: - 98%\n\n@ 9 pm Patient had hypotension informed to [illegible] could advise IVF NS 200 ml bolus given as per advice",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 65,
+      "source": "patient_notes.pdf",
+      "src_page": 65,
+      "png": "cache/pages/patient_2/patient_notes_p065_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM 8 PM TO 8 AM) DATE: 26/2/26 -> PATIENT HAD A CHILLS ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From 8 pm to 8 am) Date: 26/2/26\n\n-> patient had a chills informed to and advice Inj - tramadol 2 ml + 3 ml NS = 5 ml. 3 ml IV Eg 2 ml in 500 ml ns as per advice given.\n-> Patient had a Sudden desaturation\n-> Patient O2 mask connected.\n10 pm Patient IV cannulization done\n-> Patient All IV medication given.\n-> Patient Inj - Human Actrapid 2 ml/hr on flow.\n-> Patient hourly GRBS checked and informed to\n11 pm -> Patient had a hypotension informed to as advice. 500 ml bolus as per advice given\n@1 pm Patient vital signs monitored and recorded.\n@2 pm in advice Foley's catheterization as per advice as per advice done.\n@04 am Patient intake output done",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 66,
+      "source": "patient_notes.pdf",
+      "src_page": 66,
+      "png": "cache/pages/patient_2/patient_notes_p066_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM.....2 PM........TO....8 AM........) DATE: 26/2/26 @ ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From.....2 pm........to....8 AM........) Date: 26/2/26\n\n@ 5 AM Patient Bud making done, Bed bath given, comfortable position given.\n@ 6 AM Patient IV medication Inj-PAN hung\nInj-Euresol ring given at post drug dose.\n@ 7 AM Patient hourly GRBS done\n-> [illegible]\n-> advice Inj-Sodabicarbonate 25 ml in NS 2 cycles as per advice given.\n@ 8 AM Patient Hand over given to morning duty staff.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 67,
+      "source": "patient_notes.pdf",
+      "src_page": 67,
+      "png": "cache/pages/patient_2/patient_notes_p067_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM........8 AM.......TO.......2 PM..) DATE: 27/2/26 3:3",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From........8 am.......to.......2 pm..) Date: 27/2/26\n\n3:30 am\n-> patient charge handover taken from night duty staff to morning duty staff\n-> patient side rounds done\n-> patient ID band is present\n-> patient IV cannula present both hand cannula 20 g cannula left hand 18 g cannula RT hand\n-> patient general assessment done\n-> patient F/C present 16 number\n-> patient vital sign checked & record\n    BP - 108/64 mm/Hg\n    SPO2 - 96%\n    HR - 114 b/m\n    RR - 28 b/m\n-> patient I/O moniter\n-> patient comfortable position\n-> patient seen by Dr\n10:00\n-> sit Adv TO\n    Pj - lower wound s/c\n-> patient ory soy diet\n-> patient IV fluids 100 ml per hour on equiry",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 68,
+      "source": "patient_notes.pdf",
+      "src_page": 68,
+      "png": "cache/pages/patient_2/patient_notes_p068_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM 8 AM TO 2 PM) DATE: 27/2/20 11 AM => PATIENT SEEN",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From 8 am to 2 pm) Date: 27/2/20\n\n11 am => patient seen\nsample sir Adv 10\n=> 1) CBC,\n2) Sr. creatinine\n3) Sr. Na+ \n4) Urinal rounts\n5) use Abdominal pelvis\n=> plan stay to ward.\n=> patient vital signs checked and recorded\n12 pm => patient URBS is checked and recorded 30g Bypom\n1 pm\n=> patient Echo report due.\n2 pm => patient chest heard over given to Monitor duty Staff to Emergency duty Staff",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 69,
+      "source": "patient_notes.pdf",
+      "src_page": 69,
+      "png": "cache/pages/patient_2/patient_notes_p069_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM...... 2PM ......TO...... 8PM .....) DATE: 27/2/2022 ",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From...... 2pm ......to...... 8pm .....) Date: 27/2/2022\n\n2pm => Patient hand over taken from Morning duty staff Nurse\n=> Patient General Nursing Assessment done & Recorded.\n=> Vitals checked & Recorded\nHR - 142 b/min Bp - 120/65 mmHg\nRR - 28 b/min T - 98°F\nSpO2 - 98% on 2l o2 NP.\n=> Patient Conscious & Oriented.\n=> Patient's both hand side IV Canula present IVF 100 ml/hr NS on flow.\n2:30 pm => Patient's T - 102°F Infund to Dr.\nInf PCT 1gm, IV, given.\n3:55 pm => Use Abdomen & pelvis done by Doctor Report Awaited\n3 pm => Urine Routine & CBC Sr. creatine and Sr. Sodium send to Lab Report Awaited\n3:10 pm => Dr. Advice to send Blood and Urine Culture, due to Few Spike.\n4:30 pm => CBC, Sodium Sr. creatine Report Infund to Dr.",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 70,
+      "source": "patient_notes.pdf",
+      "src_page": 70,
+      "png": "cache/pages/patient_2/patient_notes_p070_dpi150_edge2048.png",
+      "doc_type": "nursing",
+      "doc_type_detail": {
+        "method": "title",
+        "title": "NURSING DOCUMENTATION (FROM........8 P.M........TO.....8 P.M......) DATE: 27/2/2",
+        "matched": "NURSING DOCUMENTATION"
+      },
+      "ocr": {
+        "text": "NURSING DOCUMENTATION\n\n(From........8 p.m........to.....8 p.m......) Date: 27/2/2026\n\n4;40 pm => Bld Cls and Urm cls Send to lab Report due\n\n6 pm => Dr. Sign Rounds\nDone & 'Advised'\n* CT KUB\n* Urologist opinion\n* CBC Sr. creatine Tlom\n* Rx as per chart.\n\n7 pm => GRBS clukli & Reworded\nInfud to Dr shiv sir\n\nLIE 9 pm => Inj meronac 1gm (ATD)\nIv gin on pu chot.\n\n=> CT KUB. Bell paid.\nCT scan due.\n\n=> Patient hand on going to night duty staff Rewor",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    },
+    {
+      "global_page": 71,
+      "source": "patient_notes.pdf",
+      "src_page": 71,
+      "png": "cache/pages/patient_2/patient_notes_p071_dpi150_edge2048.png",
+      "doc_type": "other",
+      "doc_type_detail": {
+        "method": "none",
+        "title": "[NO TEXT]",
+        "scores": {}
+      },
+      "ocr": {
+        "text": "[no text]",
+        "model": "gpt-4.1-mini",
+        "cached": true,
+        "error": null,
+        "warning": null
+      }
+    }
+  ]
+}

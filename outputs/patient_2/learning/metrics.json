@@ -1,0 +1,68 @@
+{
+  "patient_id": "patient_2",
+  "seed": 7,
+  "n_splits": 25,
+  "n_sections_total": 10,
+  "n_editable": 7,
+  "n_train": 4,
+  "n_held_out": 3,
+  "representative_held_out_fields": [
+    "follow_up_instructions",
+    "pending_results",
+    "allergies"
+  ],
+  "before": {
+    "mean_edit_distance": 0.1888,
+    "match_rate": 0.0
+  },
+  "after": {
+    "mean_edit_distance": 0.148,
+    "match_rate": 0.1067
+  },
+  "edit_distance_reduction": 0.0408,
+  "edit_distance_reduction_pct": 21.6,
+  "match_rate_before": 0.0,
+  "match_rate_after": 0.1067,
+  "rules_learned_representative": 10,
+  "max_safety_penalty": 0.0,
+  "safety_invariant_held": true,
+  "citations_preserved": 45,
+  "flags_preserved": 1,
+  "curve": [
+    {
+      "n_train": 0,
+      "mean_edit_distance": 0.1888,
+      "edit_distance_min": 0.0481,
+      "edit_distance_max": 0.3368,
+      "match_rate": 0.0
+    },
+    {
+      "n_train": 1,
+      "mean_edit_distance": 0.1798,
+      "edit_distance_min": 0.0217,
+      "edit_distance_max": 0.3368,
+      "match_rate": 0.0267
+    },
+    {
+      "n_train": 2,
+      "mean_edit_distance": 0.1642,
+      "edit_distance_min": 0.0217,
+      "edit_distance_max": 0.3085,
+      "match_rate": 0.0533
+    },
+    {
+      "n_train": 3,
+      "mean_edit_distance": 0.1601,
+      "edit_distance_min": 0.0217,
+      "edit_distance_max": 0.3085,
+      "match_rate": 0.0667
+    },
+    {
+      "n_train": 4,
+      "mean_edit_distance": 0.148,
+      "edit_distance_min": 0.0217,
+      "edit_distance_max": 0.2571,
+      "match_rate": 0.1067
+    }
+  ]
+}

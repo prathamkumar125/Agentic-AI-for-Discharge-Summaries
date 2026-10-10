@@ -1,0 +1,30 @@
+# --- Secrets: NEVER commit -------------------------------------------------
+.env
+*.env
+!.env.example
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Generated caches (large, regenerable) ---------------------------------
+# Rendered page PNGs and OCR JSON. Deleting these just forces a re-render/re-OCR.
+cache/
+
+# --- Node / frontend (regenerable) -----------------------------------------
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# --- OS cruft --------------------------------------------------------------
+Thumbs.db
+.DS_Store
+
+# NOTE: data/ (synthetic patient notes) and outputs/ (deliverable drafts +
+# traces) are intentionally tracked so the project is runnable and reviewable.

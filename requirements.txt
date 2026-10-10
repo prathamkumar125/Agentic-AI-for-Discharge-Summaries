@@ -1,0 +1,12 @@
+# Discharge Summary Agent — runtime dependencies (OpenAI-only stack)
+openai>=1.30          # brain (gpt-5-mini) + vision OCR (gpt-4.1-mini)
+pdfplumber>=0.11      # PDF page -> PNG rendering ONLY (data has no text layer)
+pypdfium2>=4          # rendering backend used by pdfplumber (no system deps)
+pillow>=10            # image downscale before OCR
+python-dotenv>=1.0    # load OPENAI_API_KEY from gitignored .env
+matplotlib>=3.8       # Part 2 improvement curve
+# --- Web interfaces ---
+streamlit>=1.40       # primary single-process Python frontend
+fastapi>=0.110        # optional JSON API for integrations
+uvicorn[standard]>=0.29  # ASGI server
+python-multipart>=0.0.9  # multipart/form-data (PDF upload)
