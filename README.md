@@ -26,12 +26,12 @@ and optional API — nothing is hardcoded to a particular patient.
 Full system — ingestion (render → OCR every page) → agent core (gpt-5-mini brain · AgentState ·
 tool registry · no-fab guardrail) → outputs (`discharge_summary.md` + `trace.json`):
 
-![System architecture](discharge_agent_system_architecture.svg)
+![System architecture](docs\architecture\discharge_agent_system_architecture.svg)
 
 The agent's five-phase ReAct loop, with the **re-plan edge** (Validate → Extract) that makes it
 an agent rather than a pipeline:
 
-![Agent loop](discharge_agent_loop.svg)
+![Agent loop](docs\architecture\discharge_agent_loop.svg)
 
 ---
 
@@ -251,24 +251,80 @@ candidates / anti-regression / coverage flag.
 
 ## Repository layout
 
-```
-backend/                  # the Python engine + FastAPI API (importable package)
-  main.py                 # CLI: ingest | run | render | add
-  config.py               # models, MAX_STEPS, paths
-  intake.py               # upload -> validate -> data/<id>/ -> run pipeline
-  api/app.py              # FastAPI JSON API (/api/patients, /status, /summary, /download)
-  ingestion/{render,ocr,segment,pipeline}.py
-  agent/{state,loop,prompts,trace,render_summary}.py
-  tools/{registry,parse_doc,extract_field,reconcile,drug_interaction,flag_review,validate_set}.py
-  learning/{reviewer,reward,memory,evaluate}.py   # Part 2 (built + measured)
-frontend/                 # Streamlit frontend (upload, guide, result, downloads)
-  streamlit_app.py
-tests/                    # guardrail, reconcile, drug-interaction, failure-contract, learning
-outputs/<patient_id>/     # discharge_summary.md, trace.json, agent_state.json, ocr_dump.md
-outputs/<patient_id>/learning/   # Part 2: metrics.json, improvement_curve.png, memory.json
-data/<patient_id>/        # uploaded source PDFs (gitignored, synthetic only)
-docs/                     # phase write-ups
-*.svg                     # loop + system-architecture diagrams
+```text
+.
+├── README.md                     # project overview, setup, architecture, and usage
+├── requirements.txt              # Python dependencies
+├── .env.example                  # sample environment file for OPENAI_API_KEY
+├── .gitignore                    # ignores local .env, data, and generated output
+├── docs/
+│   ├── architecture/
+│   │   ├── discharge_agent_loop.svg
+│   │   └── discharge_agent_system_architecture.svg
+│   └── phases/
+│       ├── Phase1-Foundation-and-Ingestion.md
+│       ├── Phase2-Safe-Agent-Core.md
+│       └── Phase3-Learning-Loop.md
+├── backend/
+│   ├── __init__.py
+│   ├── main.py                   # CLI entry point for run / add / learn
+│   ├── config.py                 # paths, model config, step caps, and constants
+│   ├── intake.py                 # upload pipeline for patient-specific intake
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── app.py                # optional FastAPI app for integrations
+│   ├── agent/
+│   │   ├── __init__.py
+│   │   ├── loop.py               # ReAct loop / planner loop
+│   │   ├── prompts.py            # agent prompt templates
+│   │   ├── render_summary.py     # markdown rendering for discharge summaries
+│   │   ├── state.py              # AgentState and FieldValue model
+│   │   └── trace.py              # trace logging and observability
+│   ├── ingestion/
+│   │   ├── __init__.py
+│   │   ├── pipeline.py           # OCR + document ingestion pipeline
+│   │   ├── render.py             # PDF page rasterization to images
+│   │   ├── ocr.py                # vision OCR and caching layer
+│   │   └── segment.py            # page/doc-type classification
+│   ├── tools/
+│   │   ├── __init__.py
+│   │   ├── registry.py           # safe tool execution wrapper with retries
+│   │   ├── parse_doc.py          # read raw OCR text for specific pages
+│   │   ├── extract_field.py      # extract a single field with citations
+│   │   ├── reconcile.py          # medication reconciliation
+│   │   ├── drug_interaction.py   # mock drug interaction lookup
+│   │   ├── flag_review.py        # escalate to clinician review
+│   │   └── validate_set.py       # no-fabrication guardrail write path
+│   └── learning/
+│       ├── __init__.py
+│       ├── reviewer.py           # simulated doctor reviewer with general editing policy
+│       ├── reward.py             # reward / safety signal from edits
+│       ├── memory.py             # structured correction-memory learning
+│       ├── evaluate.py           # held-out evaluation and improvement curves
+│       └── README.md             # optional internal notes (if present)
+├── frontend/
+│   └── streamlit_app.py          # Streamlit front door for upload + draft download
+├── tests/
+│   ├── test_guardrail.py
+│   ├── test_reconcile.py
+│   ├── test_drug_interaction.py
+│   ├── test_registry_failure.py
+│   └── test_learning.py
+├── outputs/
+│   └── <patient_id>/
+│       ├── discharge_summary.md
+│       ├── trace.json
+│       ├── agent_state.json
+│       ├── ocr_dump.md
+│       └── learning/
+│           ├── metrics.json
+│           ├── memory.json
+│           ├── pairs.json
+│           └── improvement_curve.png
+├── data/
+│   └── <patient_id>/
+│       └── patient_notes.pdf     # patient uploads; synthetic only
+└── .venv/                        # local virtual environment (not tracked)
 ```
 
-Data is **synthetic**; do not add real patient data. API keys live in a gitignored `.env`.
+Data is **synthetic** and should never include real patient data. API keys live in a gitignored `.env` file and are not checked into the repository.
