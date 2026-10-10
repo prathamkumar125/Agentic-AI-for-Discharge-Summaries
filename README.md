@@ -26,12 +26,12 @@ and optional API — nothing is hardcoded to a particular patient.
 Full system — ingestion (render → OCR every page) → agent core (gpt-5-mini brain · AgentState ·
 tool registry · no-fab guardrail) → outputs (`discharge_summary.md` + `trace.json`):
 
-![System architecture](docs\architecture\discharge_agent_system_architecture.svg)
+![System architecture](docs/architecture/discharge_agent_system_architecture.svg)
 
 The agent's five-phase ReAct loop, with the **re-plan edge** (Validate → Extract) that makes it
 an agent rather than a pipeline:
 
-![Agent loop](docs\architecture\discharge_agent_loop.svg)
+![Agent loop](docs/architecture/discharge_agent_loop.svg)
 
 ---
 
